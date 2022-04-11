@@ -19,7 +19,7 @@ use Faker\Generator as Faker;
 */
 
 Route::get('view', function () {
-    GoogleSheetWriteBehind::getInstance()->Get(true);
+    GoogleSheetWriteBehind::getInstance()->Get();
     return [
         'tmp' => Cache::get(GoogleSheetWriteBehind::PrefixKeyAppend . env('SPREADSHEET_ID')),
         'get' => Cache::get(GoogleSheetWriteBehind::PrefixKeySpreadsheet . env('SPREADSHEET_ID')),
@@ -27,13 +27,32 @@ Route::get('view', function () {
 });
 
 Route::get('/', function () {
+    return redirect()->route('index');
+});
+
+Route::get('/uq-jix', function () {
+    $instance = GoogleSheetWriteBehind::getInstance();
+    $data = $instance->Get();
     return view('welcome', [
         'places' => array_keys(GoogleSheetWriteBehind::PlaceLimit),
         'date_range' => GoogleSheetWriteBehind::DateRange,
         'time_range' => GoogleSheetWriteBehind::TimeRange,
         'items' => GoogleSheetWriteBehind::ItemRange,
+        'countable' => $data['countable'],
+        'limitable' => $instance->getLimit(),
     ]);
 })->name('index');
+
+Route::post('/search', function () {
+    if($mobile = request()->input('mobile')) {
+        $instance = GoogleSheetWriteBehind::getInstance();
+        return redirect()->route('index')->with([
+            'search' => true,
+            'data' => $instance->Find($mobile),
+        ]);
+    }
+    return redirect()->route('index');
+})->name('form.search');
 
 Route::post('/', function () {
     $inputs = request()->only(array_keys(GoogleSheetWriteBehind::DefindCols));

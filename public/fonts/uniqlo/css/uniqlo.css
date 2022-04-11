@@ -1,0 +1,33 @@
+/*
+* Uniqlo
+ */
+@font-face {
+  font-family: 'Uniqlo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../eot/UniqloLight.eot); /* IE9 Compat Modes */
+  src: url(../eot/UniqloLight.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(../woff/UniqloLight.woff) format("woff"), /* Modern Browsers */
+       url(../ttf/UniqloLight.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(../svg/UniqloLight.svg#UniqloLight) format("svg"); /* Legacy iOS */
+}
+@font-face {
+   font-family: 'Uniqlo';
+   font-style: normal;
+   font-weight: 400;
+  src: url(../eot/UniqloRegular.eot); /* IE9 Compat Modes */
+  src: url(../eot/UniqloRegular.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(../woff/UniqloRegular.woff) format("woff"), /* Modern Browsers */
+       url(../ttf/UniqloRegular.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(../svg/UniqloRegular.svg#UniqloRegular) format("svg"); /* Legacy iOS */
+ }
+@font-face {
+   font-family: 'Uniqlo';
+   font-style: normal;
+   font-weight: 700;
+  src: url(../eot/UniqloBold.eot); /* IE9 Compat Modes */
+  src: url(../eot/UniqloBold.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(../woff/UniqloBold.woff) format("woff"), /* Modern Browsers */
+       url(../ttf/UniqloBold.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(../svg/UniqloBold.svg#UniqloBold) format("svg"); /* Legacy iOS */
+ }

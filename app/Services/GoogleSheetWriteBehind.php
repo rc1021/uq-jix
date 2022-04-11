@@ -14,8 +14,8 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
     const PrefixKeySpreadsheet = 'spreadsheet_';
     const PrefixKeyAppend = 'append_';
     const PlaceLimit = ['台北旗艦店' => 50, '台中崇德' => 40, '台南文賢路' => 40];
-    const DateRange  = ['2022/4/16', '2022/4/23', '2022/4/30'];
-    const TimeRange  = ['11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00', '11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00', '11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00'];
+    const DateRange  = ['2022/04/16', '2022/04/23', '2022/04/30'];
+    const TimeRange  = ['11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00'];
     const ItemRange  = [
         'item1' => '風格抱枕 $790',
         'item2' => '寵物帽T $790',
@@ -65,9 +65,10 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
      * @param  array $input
      * @return array
      */
-    public function replaceKeys(array $input)
+    public function replaceKeys(array $input, $reverse = false)
     {
-        $keys = collect(array_keys($input))->map(fn ($k) => data_get(static::DefindCols, $k, null))->filter()->all();
+        $cols = ($reverse) ? collect(static::DefindCols)->flip()->all() : static::DefindCols;
+        $keys = collect(array_keys($input))->map(fn ($k) => data_get($cols, $k, null))->filter()->all();
         return array_combine($keys, $input);
     }
 
@@ -80,7 +81,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
      *
      * @return void
      */
-    private function getLimit() {
+    public function getLimit() {
         $arr = [];
         foreach(static::PlaceLimit as $p => $l) {
             foreach(static::DateRange as $d) {
@@ -96,7 +97,19 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
     {
         $mobile = $mobile ?: request()->input('mobile');
         $data = $this->Get();
-        return data_get($data, 'items.' . $mobile);
+        $d = data_get($data, 'items.' . $mobile, []);
+        $items = [];
+        foreach($d as $k => $v) {
+            if(in_array($k, static::ItemRange)) {
+                array_push($items, $k);
+                unset($d[$k]);
+            }
+        }
+        $d = array_filter($d);
+        $items = implode(', ', $items);
+        $d = $this->replaceKeys($d, true);
+        $d['items'] = $items;
+        return $d;
     }
 
     public function Get($cached = true)
@@ -147,7 +160,10 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
             })->filter(fn ($row, $key) => !empty($key))->all(),
             // 已預約的電話號碼資料
             'items' => $collect->mapWithKeys(function ($sheet, $key) {
-                return collect($sheet)->mapWithKeys(fn ($item) => [$item[static::DefindCols['mobile']] => $item]);
+                return collect($sheet)->mapWithKeys(function ($item) use ($key) {
+                    $item[static::DefindCols['place']] = $key;
+                    return [$item[static::DefindCols['mobile']] => $item];
+                });
             })->all(),
         ], fn(array $data) => Cache::put($key, $data));
     }
@@ -161,17 +177,19 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
             'mobile' => [
                 function ($attribute, $value, $fail) use ($data) {
                     if(array_key_exists($value, $data['items'])) {
-                        $d = data_get($data, 'items.' . $value, []);
-                        $items = [];
-                        foreach($d as $k => $v) {
-                            if(in_array($k, static::ItemRange)) {
-                                array_push($items, $k);
-                                unset($d[$k]);
-                            }
-                        }
-                        $d = array_filter($d);
-                        $d['預約項目'] = implode(', ', $items);
-                        $fail("您報名的資訊如下：\n" . implode("\n", collect($d)->map(fn($v, $k) => $k . ':' . $v)->all()));
+                        $fail('您之前已報名，請使用 查詢預約狀態 進行查詢');
+                        //
+                        // $d = data_get($data, 'items.' . $value, []);
+                        // $items = [];
+                        // foreach($d as $k => $v) {
+                        //     if(in_array($k, static::ItemRange)) {
+                        //         array_push($items, $k);
+                        //         unset($d[$k]);
+                        //     }
+                        // }
+                        // $d = array_filter($d);
+                        // $d['預約項目'] = implode(', ', $items);
+                        // $fail("您之前已報名：資訊如下：\n" . implode("\n", collect($d)->map(fn($v, $k) => $k . ':' . $v)->all()));
                     }
                 },
             ],
