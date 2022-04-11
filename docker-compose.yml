@@ -1,0 +1,15 @@
+version: '3'
+services:
+    webapp:
+        build:
+            context: .
+            dockerfile: ./docker/7.4-fpm-alpine/Dockerfile
+        image: fpm-alpine-7.4/uq-jix
+        ports:
+            - '80:80'
+        volumes:
+            - '.:/var/www/html'
+        networks:
+            - local
+networks:
+    local:

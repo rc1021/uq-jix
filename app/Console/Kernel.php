@@ -23,7 +23,6 @@ class Kernel extends ConsoleKernel
     protected function shortSchedule(\Spatie\ShortSchedule\ShortSchedule $shortSchedule)
     {
         $shortSchedule->command('writebehind:sync')->everySeconds(8);
-        $shortSchedule->command('writebehind:post_fake')->everySeconds(3);
     }
 
     /**
