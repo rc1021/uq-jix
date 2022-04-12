@@ -15,7 +15,7 @@
   <meta property="og:description" content="《REHOW × JUST IN XX 舊衣新生工坊》4/16、4/23、4/30於UNIQLO台北旗艦店、台中崇德路店、台南文賢路店快閃啟動。攜手與您一同使服裝重生讓愛循環！">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rehow.org/uq-jix">
-  <meta property="og:image" content="https://rehow.org/uq-jix/ogimg/ogimg.png">
+  <meta property="og:image" content="https://rehow.org/ogimg/ogimg.png">
   <meta http-equiv="Content-Script-Type" content="text/javascript">
   <meta http-equiv="content-style-type" content="text/css">
   <link rel="canonical" href="">
