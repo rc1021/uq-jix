@@ -6,9 +6,9 @@ services:
             dockerfile: ./docker/7.4-fpm-alpine/Dockerfile
         image: fpm-alpine-7.4/uq-jix
         ports:
-            - '80:80'
+            - '32100:80'
         volumes:
-            - '.:/var/www/html'
+            - '.env:/var/www/html/.env'
         networks:
             - local
 networks:

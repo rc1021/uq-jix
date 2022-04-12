@@ -4,6 +4,7 @@ COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr
 RUN install-php-extensions gd mysqli pdo_mysql zip intl bcmath soap ldap msgpack igbinary redis memcached pcov xdebug
 
 RUN apk add --no-cache nginx yasm git mysql-client
+RUN apk add certbot certbot-nginx
 RUN set -eux ; \
   # download installer.php, see https://getcomposer.org/download/
   curl --silent --fail --location --retry 3 --output /tmp/installer.php --url https://raw.githubusercontent.com/composer/getcomposer.org/f24b8f860b95b52167f91bbd3e3a7bcafe043038/web/installer ; \
@@ -23,6 +24,6 @@ COPY ./docker/7.4-fpm-alpine/startup.sh /usr/local/bin/startup.sh
 COPY ./docker/7.4-fpm-alpine/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN chmod +x /usr/local/bin/startup.sh
 
-EXPOSE 80
+EXPOSE 80 443
 
-ENTRYPOINT ["sh", "/usr/local/bin/startup.sh"]
+ENTRYPOINT ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
