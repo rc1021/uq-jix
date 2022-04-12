@@ -13,13 +13,13 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
 {
     const PrefixKeySpreadsheet = 'spreadsheet_';
     const PrefixKeyAppend = 'append_';
-    const PlaceLimit = ['台北旗艦店' => 50, '台中崇德' => 40, '台南文賢路' => 40];
+    const PlaceLimit = ['UNIQLO TAIPEI 台北旗艦店' => 50, '台中崇德路店' => 40, '台南文賢路店' => 40];
     const DateRange  = ['2022/04/16', '2022/04/23', '2022/04/30'];
     const TimeRange  = ['11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00'];
     const ItemRange  = [
         'item1' => '風格抱枕 $790',
         'item2' => '寵物帽T $790',
-        'item3' => '寵物風衣 $1290'
+        'item3' => '寵物風衣 $1,290'
     ];
     const DefindCols = [
         'name' => '姓名',

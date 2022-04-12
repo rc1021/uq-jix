@@ -441,7 +441,7 @@
                     @endphp
                     <div class="theoptions_W_{{ ++$item_ind }}">
                       <label class="theoptions" for="{{ $name }}">{{ $title }}<span class="price">{{ $price }}</span>
-                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" {{ (old($name)) ? 'checked' : '' }} value="TRUE">
+                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" checked value="TRUE">
                         <span class="checkmark"></span>
                       </label>
                     </div>
@@ -728,8 +728,8 @@
                 <img class="_640"  src="/images/640/faq_a.png" alt="Answer">
               </div>
               <div>
-                如有相關問題請詳參<a href="https://rehow.org/uq-jix" target="_blank">活動官網https://rehow.org/uq-jix</a>、<a href="https://www.facebook.com/REHOW.TW/" target="_blank">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽___________<br>
-                臉書專頁回覆時間：周一至周五 10:00-18:00
+                如有相關問題請詳參<a href="https://rehow.org/uq-jix" target="_blank">活動官網https://rehow.org/uq-jix</a>、<a href="https://www.facebook.com/REHOW.TW/" target="_blank">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br>
+                臉書專頁回覆時間：周一至周五 10:00-18:00<br>
                 電話客服受理時間：周一至周六 (周二公休) 11:00-19:00
               </div>
             </div>
