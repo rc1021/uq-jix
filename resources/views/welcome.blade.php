@@ -186,11 +186,11 @@
           周裕穎設計師擅長為永續時尚提出新的解決方式，<br class="_640_inline">升級再造重啟生命週期。
         </div>
         <div class="aboutus_sub2">
-          CIRCULAR FASHION SUMMIT 循環時尚峰會首屆，<br class="_640_inline">唯一入選之台灣永續時尚代表品牌！
+          CIRCULAR FASHION SUMMIT<br class="_640_inline"> 循環時尚峰會首屆，<br class="_640_inline">唯一入選之台灣永續時尚代表品牌！
         </div>
         <div class="pa">
           <p class="aboutus_des">
-            周裕穎(Justin Chou)台灣第一位獲選進入紐約官方時裝週的設計師，獲Vogue ITALIA選為紐約時裝週<br>
+            周裕穎(Justin Chou)台灣第一位獲選進入紐約官方時裝週的設計師，獲Vogue ITALIA選為紐約時裝週
             Best Of Talent，也是2021東京奧運中華代表團進場服裝設計師，被譽為文創跨界鬼才，為台灣首位與國立故宮博物院、國立歷史博物館聯名之服裝設計師！<br>
             擅長透過設計將高級時裝與台灣藝術、工藝與文化完美結合，並致力於將永續精神融入創作。
           </p>
@@ -602,7 +602,7 @@
                 <img class="_640"  src="/images/640/faq_a.png" alt="Answer">
               </div>
               <div>
-                請參閱 <a>寵物衣尺寸表</a>，體重及尺寸建議僅供參考，訂購後不可取消或退換，請務必測量後再訂購。
+                請參閱 <a class="gotosec9_1">寵物衣尺寸表</a>，體重及尺寸建議僅供參考，訂購後不可取消或退換，請務必測量後再訂購。
               </div>
             </div>
           </div>

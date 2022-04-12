@@ -66,5 +66,11 @@ $(function() {
     }, 100,"easeOutQuart");
     return false;
   });
+  $(".gotosec9_1").click(function() {
+    $("body, html").stop(true,false).animate({
+      scrollTop: $(".sec9").offset().top - naviH
+    }, 100,"easeOutQuart");
+    return false;
+  });
 
 });

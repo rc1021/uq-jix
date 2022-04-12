@@ -28,9 +28,9 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
         'place' => '預約店點',
         'date' => '希望預約日期',
         'time' => '希望預約時間',
-        'item1' => '風格抱枕 $790',
-        'item2' => '寵物帽T $790',
-        'item3' => '寵物風衣 $1290',
+        'item1' => '風格抱枕 NT$790',
+        'item2' => '寵物帽T NT$790',
+        'item3' => '寵物風衣 NT$1,290',
     ];
     protected $spreadsheet_id;
 
