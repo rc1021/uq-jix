@@ -17,9 +17,9 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
     const DateRange  = ['2022/04/16', '2022/04/23', '2022/04/30'];
     const TimeRange  = ['11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00'];
     const ItemRange  = [
-        'item1' => '風格抱枕 $790',
-        'item2' => '寵物帽T $790',
-        'item3' => '寵物風衣 $1,290'
+        'item1' => '風格抱枕 NT$790',
+        'item2' => '寵物帽T NT$790',
+        'item3' => '寵物風衣 NT$1,290'
     ];
     const DefindCols = [
         'name' => '姓名',
@@ -199,6 +199,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
         $error_messages = [
             'name.required' => '請輸入姓名',
             'mobile.required' => '請輸入手機號碼',
+            'email.required' => '請輸入電子信箱',
             'place.required' => '請選擇預約店點',
             'date.required' => '請選擇希望預約日期',
             'time.required' => '請選擇希望預約時間',
@@ -216,6 +217,10 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
                     }
                 },
             ],
+            // 驗證
+            'name' => 'required',
+            // 驗證
+            'email' => 'required',
             // 驗證電話號碼是否輸入
             'mobile' => 'required',
             // 驗證是否選擇日期
