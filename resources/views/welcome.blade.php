@@ -51,7 +51,12 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css"/>
   <script src="https://kit.fontawesome.com/3de6e4f0a1.js"></script>
 
-
+    <style>
+        .text-red-500 {
+            color: #E33964;
+            font-weight:400;
+        }
+    </style>
 
 </head>
 
@@ -847,6 +852,14 @@
     alert("{{ $errors->first('mobile') }}");
     var myModal = new bootstrap.Modal(document.getElementById('checkstatus'));
     myModal.show();
+</script>
+@endif
+@if ($errors->form->any())
+<script type="text/javascript">
+    alert("請輸入必填項目");
+    $(function () {
+        $(".g8").trigger('click');
+    })
 </script>
 @endif
 <script type="text/javascript">
