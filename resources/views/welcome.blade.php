@@ -321,7 +321,7 @@
             </div>
             <div class="des">
               <div>線上預約舊衣改造</div>
-              <p>請於官網預約，現場將優先收件，<br class="_640_inline">如線上預約額滿<br>亦接受現場受理。</p>
+              <p>請於官網預約，<br class="_640_inline">現場將優先收件，<br>如線上預約額滿<br>亦接受現場受理。</p>
             </div>
           </div>
           <div class="stepR">
@@ -441,7 +441,7 @@
                     @endphp
                     <div class="theoptions_W_{{ ++$item_ind }}">
                       <label class="theoptions" for="{{ $name }}">{{ $title }}<span class="price">{{ $price }}</span>
-                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" {{ old($name) ? 'checked' : '' }} value="TRUE">
+                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" checked value="TRUE">
                         <span class="checkmark"></span>
                       </label>
                     </div>
