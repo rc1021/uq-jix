@@ -441,7 +441,7 @@
                     @endphp
                     <div class="theoptions_W_{{ ++$item_ind }}">
                       <label class="theoptions" for="{{ $name }}">{{ $title }}<span class="price">{{ $price }}</span>
-                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" checked value="TRUE">
+                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" {{ old($name) ? 'checked' : '' }} value="TRUE">
                         <span class="checkmark"></span>
                       </label>
                     </div>
