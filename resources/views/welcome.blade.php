@@ -92,8 +92,8 @@
         </div>
         <div class="title">加入我們使服裝重生讓愛循環</div>
         <div class="sub">
-          JUST IN XX 全球獨家二手衣改造寵物衣設計<br class="_640_inline"> 只在REHOW 舊衣新生工坊<br>
-          4/16、4/23、4/30於UNIQLO<br class="_640_inline">台北旗艦店、台中崇德路店、台南文賢路店<br class="_640_inline">快閃啟動
+          JUST IN XX<br class="_640_inline"> 全球獨家二手衣改造寵物衣設計<br class="_640_inline"> 只在REHOW 舊衣新生工坊<br>
+          4/16、4/23、4/30於UNIQLO<br class="_640_inline">台北旗艦店、台中崇德路店、<br class="_640_inline">台南文賢路店<br class="_640_inline">快閃啟動
         </div>
       </h1>
       <div class="cover">
@@ -115,7 +115,7 @@
           <p>
             源自RE.UNIQLO持續開創二手衣回收再生運用的核心理念，<br class="_1280_inline">
             結合永續設計師周裕穎的精湛設計與REHOW如禾永續文創的精心製作，<br class="_1280_inline">
-            延續二手衣的生命週期，使家中不再需要的UNIQLO二手衣有機會重獲新生成為寵物衣或風格家飾。<br>
+            延續二手衣的生命週期，使家中不再需要的UNIQLO二手衣有機會重獲新生成為寵物衣或風格家飾。<br class="_1280_inline">
             透過JUST IN XX周裕穎設計師獨家設計，<br class="_1280_inline">
             與REHOW及高林文創基金會長期輔導培訓之二度就業人士精心製作，<br class="_1280_inline">
             一同實現環保減碳與社會扶助良善循環。<br>
@@ -158,7 +158,7 @@
         </div>
         <div class="pa">
           <p class="aboutus_des">
-            《REHOW》 如禾永續文創為專注於永續創造力的台灣新創品牌，致力推動廢棄材料的升級再製。<br>
+            《REHOW》 如禾永續文創為專注於永續創造力的台灣新創品牌，致力推動廢棄材料的升級再製。<br class="_1280_inline">
             從織品出發，REHOW用美感與設計探索各種永續的可能，不僅首創『#BarREHOW設計師體驗』提供廢料吧與專業縫紉設備的自助手作參與；2022年，REHOW再次推出原創的改造計畫『R+F5重新整理』，提供客製化的永續方案與創意產品規劃，將廢棄資源反向再造，爲循環生活提供新選擇！<br>
             在推動循環經濟之外，REHOW更兼顧社會使命，與高林文創基金會合作推動社會關懷，REHOW製作團隊由高林文創基金會長期輔導培訓之二度就業婦女組成，透過資源整合支持婦女培力。
           </p>
@@ -321,7 +321,7 @@
             </div>
             <div class="des">
               <div>線上預約舊衣改造</div>
-              <p>請於官網預約，現場將優先收件，<br class="_640_inline">如線上預約額滿亦接受現場受理。</p>
+              <p>請於官網預約，現場將優先收件，<br class="_640_inline">如線上預約額滿<br>亦接受現場受理。</p>
             </div>
           </div>
           <div class="stepR">
@@ -331,7 +331,7 @@
             </div>
             <div class="des">
               <div>付款提交舊衣</div>
-              <p>至REHOW快閃攤位提交舊衣，<br class="_640_inline">確認改造品項與尺寸，<br class="_640_inline">並完成付款。(僅收現金！)</p>
+              <p>至REHOW快閃攤位提交舊衣，<br class="_640_inline">確認改造品項與尺寸，<br class="_640_inline">並完成付款。<br>(僅收現金！)</p>
             </div>
           </div>
           <div class="stepL">
@@ -341,7 +341,7 @@
             </div>
             <div class="des">
               <div>工坊製作</div>
-              <p>REHOW工坊改造縫製預訂品項。<br class="_640_inline">(約需2~3周時間)</p>
+              <p>REHOW工坊改造縫製預訂品項。<br>(約需2~3周時間)</p>
             </div>
           </div>
           <div class="stepR">
@@ -441,7 +441,7 @@
                     @endphp
                     <div class="theoptions_W_{{ ++$item_ind }}">
                       <label class="theoptions" for="{{ $name }}">{{ $title }}<span class="price">{{ $price }}</span>
-                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" checked value="TRUE">
+                        <input type="checkbox" name="{{ $name }}" id="{{ $name }}" {{ old($name) ? 'checked' : '' }} value="TRUE">
                         <span class="checkmark"></span>
                       </label>
                     </div>
@@ -702,6 +702,24 @@
                 <img class="_1280" src="/images/1280/faq_q.png" alt="Question">
                 <img class="_640"  src="/images/640/faq_q.png" alt="Question">
               </div>
+              <div>線上預約後是否可以取消或更改？</div>
+            </div>
+            <div class="Answer">
+              <div>
+                <img class="_1280" src="/images/1280/faq_a.png" alt="Answer">
+                <img class="_640"  src="/images/640/faq_a.png" alt="Answer">
+              </div>
+              <div>
+                線上預約後無法取消或修改，且同一手機號碼不可重複預約。如欲更改時段請洽客服，如錯過預約時間可重新預約其他活動日期時段，或直接至快閃攤位訂購。
+              </div>
+            </div>
+          </div>
+          <div class="qa">
+            <div class="Question">
+              <div>
+                <img class="_1280" src="/images/1280/faq_q.png" alt="Question">
+                <img class="_640"  src="/images/640/faq_q.png" alt="Question">
+              </div>
               <div>是否可以退換貨？</div>
             </div>
             <div class="Answer">
@@ -728,7 +746,7 @@
                 <img class="_640"  src="/images/640/faq_a.png" alt="Answer">
               </div>
               <div>
-                如有相關問題請詳參<a href="https://rehow.org/uq-jix" target="_blank">活動官網https://rehow.org/uq-jix</a>、<a href="https://www.facebook.com/REHOW.TW/" target="_blank">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br>
+                如有相關問題請詳參<a href="https://rehow.org/uq-jix" target="_blank">活動官網</a>、<a href="https://www.facebook.com/REHOW.TW/" target="_blank">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br>
                 臉書專頁回覆時間：周一至周五 10:00-18:00<br>
                 電話客服受理時間：周一至周六 (周二公休) 10:00-18:00
               </div>
