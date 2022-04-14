@@ -19,7 +19,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
     const ItemRange  = [
         'item1' => '風格抱枕 NT$790',
         'item2' => '寵物帽T NT$790',
-        'item3' => '寵物風衣 NT$1,290'
+        'item3' => '寵物披風 NT$1,290'
     ];
     const DefindCols = [
         'name' => '姓名',
@@ -30,7 +30,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
         'time' => '希望預約時間',
         'item1' => '風格抱枕 NT$790',
         'item2' => '寵物帽T NT$790',
-        'item3' => '寵物風衣 NT$1,290',
+        'item3' => '寵物披風 NT$1,290',
     ];
     protected $spreadsheet_id;
 

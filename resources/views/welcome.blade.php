@@ -264,9 +264,9 @@
             </div>
           </div>
           <div class="cards">
-            <div><img src="/images/1280/items_sec1_img3.png" alt="③ Pet Cap 寵物風衣"></div>
+            <div><img src="/images/1280/items_sec1_img3.png" alt="③ Pet Cap 寵物披風"></div>
             <div class="co">
-              <div class="name">③ Pet Cap 寵物風衣</div>
+              <div class="name">③ Pet Cap 寵物披風</div>
               <div class="price">NT$1,290</div>
               <div class="dis">不分尺寸單一定價</div>
             </div>
@@ -294,7 +294,7 @@
         </div>
 
         <div class="itemintro">
-          <h3 class="title">③<br class="_640_inline"> Pet Cap<br class="_640_inline"> 寵物風衣</h3>
+          <h3 class="title">③<br class="_640_inline"> Pet Cap<br class="_640_inline"> 寵物披風</h3>
           <div class="sub1">全尺寸單一價</div>
           <div class="sub2">適用改造的UNIQLO二手衣品項：<br class="_640_inline">男女裝BLOCKTECH等防風或防潑水連帽外套<br class="_640_inline"><small>＊詳情請見寵物衣訂製注意事項</small></div>
           <div class="price">NT$1,290</div>
@@ -466,7 +466,7 @@
                   <p>自備二手衣說明：</p>
                   <ul>
                     <li>訂購抱枕或寵物帽T請自備一件UNIQLO圓領T，男女裝不限。</li>
-                    <li>訂購寵物風衣請自備一件UNIQLO BLOCKTECK 等防風防雨連帽外套，男女裝不限。</li>
+                    <li>訂購寵物披風請自備一件UNIQLO BLOCKTECK 等防風防雨連帽外套，男女裝不限。</li>
                     <li>僅收成人款服飾，恕不接受童裝。</li>
                     <li>請自行確認自備衣物狀態，現場受理衣物及改造完成品僅做簡單織品除菌，回收衣物將不另做清潔處理。</li>
                     <li>改造商品所使用之配件輔料將由本公司提供，恕無法提供選擇；如自備欲改造之衣物布面較小，將使用相近材料補齊，不再另行告知。</li>
@@ -494,8 +494,8 @@
                     <li>圖表中的寵物尺寸及體重僅供參考，尺寸會依材質與設計而隨之不同。</li>
                     <li>頸圍測量-脖子量一圈可加入兩根手指當鬆份。</li>
                     <li>胸圍測量-可將胸背帶穿戴調整為剛好的尺寸後再行測量。</li>
-                    <li>訂製3XL包含與以上的寵物帽T或寵物風衣，需提供2件UNIQLO圓領T或者是2件防潑水與防風材質服飾以供改造，如提交改造的兩件舊衣為同色，REHOW將會製作單色的寵物衣。</li>
-                    <li>訂製3XL包含與以上的寵物帽T或寵物風衣，衣服靠近尾巴處的下擺會與身體布料撞色。</li>
+                    <li>訂製3XL包含與以上的寵物帽T或寵物披風，需提供2件UNIQLO圓領T或者是2件防潑水與防風材質服飾以供改造，如提交改造的兩件舊衣為同色，REHOW將會製作單色的寵物衣。</li>
+                    <li>訂製3XL包含與以上的寵物帽T或寵物披風，衣服靠近尾巴處的下擺會與身體布料撞色。</li>
                   </ul>
                 </div>
 
