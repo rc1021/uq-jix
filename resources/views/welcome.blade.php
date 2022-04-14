@@ -321,7 +321,7 @@
             </div>
             <div class="des">
               <div>線上預約舊衣改造</div>
-              <p>請於官網預約，<br class="_640_inline">現場將優先收件，<br>如線上預約額滿<br>亦接受現場受理。</p>
+              <p>請於官網預約，<br class="_640_inline">現場將優先收件，<br>如線上預約額滿<br class="_640_inline">亦接受現場受理。</p>
             </div>
           </div>
           <div class="stepR">
@@ -331,7 +331,7 @@
             </div>
             <div class="des">
               <div>付款提交舊衣</div>
-              <p>至REHOW快閃攤位提交舊衣，<br class="_640_inline">確認改造品項與尺寸，<br class="_640_inline">並完成付款。<br>(僅收現金！)</p>
+              <p>至REHOW快閃攤位提交舊衣，<br>確認改造品項與尺寸，<br class="_640_inline">並完成付款。<br>(僅收現金！)</p>
             </div>
           </div>
           <div class="stepL">
@@ -351,7 +351,7 @@
             </div>
             <div class="des">
               <div>成品取貨</div>
-              <p>舊衣改造商品完成，<br class="_640_inline">憑簡訊至原訂購店舖取件，<br class="_640_inline">支持環保敬請自備購物袋</p>
+              <p>舊衣改造商品完成，<br class="_640_inline">憑簡訊至原訂購店舖取件，<br>支持環保敬請自備購物袋。</p>
             </div>
           </div>
         </div>
