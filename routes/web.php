@@ -18,13 +18,13 @@ use Faker\Generator as Faker;
 |
 */
 
-Route::get('view', function () {
-    GoogleSheetWriteBehind::getInstance()->Get();
-    return [
-        'tmp' => Cache::get(GoogleSheetWriteBehind::PrefixKeyAppend . env('SPREADSHEET_ID')),
-        'get' => Cache::get(GoogleSheetWriteBehind::PrefixKeySpreadsheet . env('SPREADSHEET_ID')),
-    ];
-});
+// Route::get('view', function () {
+//     GoogleSheetWriteBehind::getInstance()->Get();
+//     return [
+//         'tmp' => Cache::get(GoogleSheetWriteBehind::PrefixKeyAppend . env('SPREADSHEET_ID')),
+//         'get' => Cache::get(GoogleSheetWriteBehind::PrefixKeySpreadsheet . env('SPREADSHEET_ID')),
+//     ];
+// });
 
 Route::get('/', function () {
     return redirect()->route('index');
