@@ -411,7 +411,7 @@
                     <label for="date"><i>* </i>希望預約日期</label>
                     <select id="date" name="date" onchange="check_datetime()">
                       @foreach ($date_range as $item)
-                      <option value="{{ $item }}" {{ old('date') == $item ? 'selected' : '' }} {{ date('Y/m/d H:i') > ($item . ' 19:00') ? 'disabled' : '' }}>{{ $item }}</option>
+                      <option value="{{ $item }}" {{ old('date') == $item ? 'selected' : '' }} {{ date('Y/m/d H:i', strtotime("+1 day")) > ($item . ' 20:00') ? 'disabled' : '' }}>{{ $item }}</option>
                       @endforeach
                     </select>
                     @error('date', 'form')
