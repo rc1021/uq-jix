@@ -426,7 +426,7 @@
                     <label for="store"><i>* </i>預約店點</label>
                     <select id="store" name="place" onchange="check_datetime()">
                         @foreach ($places as $item)
-                            <option value="{{ $item }}" {{ old('date') == $item ? 'selected' : '' }}>{{ $item }}</option>
+                            <option value="{{ $item }}" {{ old('place') == $item ? 'selected' : '' }}>{{ $item }}</option>
                         @endforeach
                     </select>
                     @error('place', 'form')
