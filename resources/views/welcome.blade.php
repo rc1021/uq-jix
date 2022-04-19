@@ -462,7 +462,7 @@
                     <label for="date"><i>* </i>預約項目(可複選)</label>
                     <div class="theoptions_W_0">
                       <label class="theoptions" for="item0">寵物背心<span class="new">新登場</span><span class="price">NT$390</span>
-                        <input type="checkbox" value="item0" id="item0" value="TRUE">
+                        <input type="checkbox" name="item0" id="item0" value="TRUE">
                         <span class="checkmark"></span>
                       </label>
                     </div>

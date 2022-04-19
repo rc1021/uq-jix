@@ -205,11 +205,11 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
             'place.required' => '請選擇預約店點',
             'date.required' => '請選擇希望預約日期',
             'time.required' => '請選擇希望預約時間',
-            'item1.required_without_all' => '請選擇其中一個項目',
+            'item0.required_without_all' => '請選擇其中一個項目',
         ];
         $a = Validator::make($input, [
             // 驗證是否有勾選項目
-            'item1' => 'required_without_all:item2,item3',
+            'item0' => 'required_without_all:item1,item2,item3',
             // 驗證預約店點是否存在
             'place' => [
                 'required',
