@@ -17,6 +17,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
     const DateRange  = ['2022/04/16', '2022/04/23', '2022/04/30'];
     const TimeRange  = ['11:00-13:00', '13:00-15:00', '15:00-17:00', '17:00-19:00', '19:00-21:00'];
     const ItemRange  = [
+        'item0' => '寵物背心 NT$390',
         'item1' => '風格抱枕 NT$790',
         'item2' => '寵物帽T NT$790',
         'item3' => '寵物風衣 NT$1,290'
@@ -28,6 +29,7 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
         'place' => '預約店點',
         'date' => '希望預約日期',
         'time' => '希望預約時間',
+        'item0' => '寵物背心 NT$390',
         'item1' => '風格抱枕 NT$790',
         'item2' => '寵物帽T NT$790',
         'item3' => '寵物風衣 NT$1,290',

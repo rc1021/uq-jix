@@ -162,8 +162,61 @@ body{
   width: 100%;
 }
 
+/* sec1_1 */
+.sec.sec1_1{padding-top: 0;}
+.sec1_1{}
+.sec.sec1_1 .cons .hea{
+  line-height: 1.5;
+}
+.sec.sec1_1 .cons .hea small{
+  font-size: 33px;
+}
+.sec.sec1_1 .cons .hea span{
+  color: #00a040;
+}
+.sec1_1 .pa{
+  border: 8px solid #00a040;
+}
+.sec1_1 .pa div:first-child{
+  padding: 30px;
+  background-color: #00a040;
+}
+.sec1_1 .pa div:first-child p{
+  color: #fff;
+  margin-bottom: 15px;
+  line-height: 1;
+  text-align: center;
+  font-size: 28px;
+}
+.sec1_1 .pa div:first-child p:last-child{
+  margin-bottom: 0;
+}
+
+.sec1_1 .pa div:last-child{
+  padding: 30px;
+}
+.sec1_1 .pa div:last-child ul{
+  padding-left:20px;
+  margin-bottom: 0;
+}
+.sec1_1 .pa div:last-child ul li{
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.sec1_1 .pa div:last-child ul li:last-child{
+  margin-bottom: 0;
+}
+.sec1_1 .pa div:last-child ul span{
+  color: #00a040;
+}
+.sec1_1 .pa div:last-child ul span.red{
+  color: #e80019;
+}
+
+
+
 /* sec2 */
-.sec.sec2{padding-top: 0; padding-bottom: 0;}
+.sec.sec2{padding-bottom: 0; padding-top: 0;}
 .sec2{}
 .sec2 .aboutus_logo1{
   margin-bottom: 10px;
@@ -500,7 +553,7 @@ body{
   border: 1px solid #00a040;
   outline: 0;
 }
-.theoptions_W_1, .theoptions_W_2{
+.theoptions_W_0, .theoptions_W_1, .theoptions_W_2{
   border-bottom: 1px dotted #b5b5b5;
   margin-bottom: 12px;
 }
@@ -520,6 +573,16 @@ body{
 .theoptions .price{
   float: right;
   color: #00a040;
+}
+.theoptions .new{
+  display: inline-block;
+  background-color: #e80019;
+  color: #fff;
+  margin-left: 1px;
+  line-height: 1;
+  padding: 4px 4px;
+  font-weight: bold;
+  font-size: smaller;
 }
 .theoptions input {
   position: absolute;
@@ -800,6 +863,17 @@ border: 1px solid #00a040;}
   display: none;
 }
 
+.sec.sec1_1{}
+.sec1_1{}
+.sec.sec1_1 .cons .hea{
+  line-height: 1.5;
+  font-size: 46px;
+}
+.sec1_1 .pa div:first-child p{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
 /* sec7 */
 .sec7 .steps ._640{display: block;}
 .sec7 .steps ._1280{display: none;}
@@ -943,6 +1017,57 @@ body{
   line-height: 1.8;
   margin-bottom: 8vw;
 }
+
+/* sec1_1 */
+.sec.sec1_1{}
+.sec1_1{}
+.sec.sec1_1 .cons .hea{
+  line-height: 1.5;
+font-size: 32px;}
+.sec.sec1_1 .cons .hea small{
+  font-size: 26px;
+  line-height: 1.4;
+display: inline-block;}
+.sec.sec1_1 .cons .hea span{
+  color: #00a040;
+}
+.sec1_1 .pa{
+  border: 8px solid #00a040;
+}
+.sec1_1 .pa div:first-child{
+  padding: 6vw 3vw;
+  background-color: #00a040;
+}
+.sec1_1 .pa div:first-child p{
+  color: #fff;
+  margin-bottom: 5vw;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 18px;
+}
+.sec1_1 .pa div:first-child p:last-child{
+  margin-bottom: 0;
+}
+
+.sec1_1 .pa div:last-child{
+  padding: 6vw 3vw;
+}
+.sec1_1 .pa div:last-child ul{
+  padding-left:20px;
+  margin-bottom: 0;
+}
+.sec1_1 .pa div:last-child ul li{
+  line-height: 1.6;
+  margin-bottom: 5vw;
+}
+.sec1_1 .pa div:last-child ul span{
+  color: #00a040;
+}
+
+
+
+
+
 
 /* sec2 */
 .sec2 .pa{
