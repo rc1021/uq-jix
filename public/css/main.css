@@ -323,15 +323,19 @@ body{
 .sec6 .sum{
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 140px;
 }
 .sec6 .sum .cards{
   max-width: 370px;
-  width: calc( (100% / 3) - 20px );
+  width: calc( (100% - 60px) / 4 );
   background-color: #fff;
   border: 1px solid #dadada;
+  margin-right: 20px;
+}
+.sec6 .sum .cards:last-child{
+  margin-right: 0;
 }
 .sec6 .sum .cards img{
   width: 100%;
@@ -1155,6 +1159,7 @@ display: inline-block;}
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 4vw;
+  margin-right: 0;
 }
 .sec6 .sum .cards:last-child{
   margin-bottom: 0;
