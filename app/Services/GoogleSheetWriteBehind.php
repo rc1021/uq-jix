@@ -275,8 +275,8 @@ class GoogleSheetWriteBehind implements ContractsGoogleSheetWriteBehind
                 foreach($sheets as $name => $data) {
                     $count = count($data);
                     if($count > 0) {
-                        $spreadsheet->sheet($name)->append($data);
                         Log::info('[' . date('Y/m/d H:i:s') . ']寫 ' . $count . ' 筆資料到 "' . $name . '"。', $data);
+                        $spreadsheet->sheet($name)->append($data);
                     }
                 }
                 Cache::forget($key);
