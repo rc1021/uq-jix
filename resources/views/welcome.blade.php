@@ -578,8 +578,8 @@
     <div class="sec9 sec">
       <div class="cons">
         <div class="sectitle"><span>寵物衣尺寸表</span></div>
-        <img class="_1280" src="/images/1280/size_img.png" alt="寵物衣尺寸表">
-        <img class="_640" src="/images/640/size_img.png" alt="寵物衣尺寸表">
+        <img class="_1280" src="/images/1280/size_img.png?20220422" alt="寵物衣尺寸表">
+        <img class="_640" src="/images/640/size_img.png?20220422" alt="寵物衣尺寸表">
       </div>
 
     </div>
