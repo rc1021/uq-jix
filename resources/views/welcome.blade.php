@@ -465,6 +465,7 @@
                   <div>
                     <label for="date"><i>* </i>希望預約日期</label>
                     <select id="date" name="date" onchange="check_datetime()">
+                        <option value="">請選擇</option>
                       @foreach ($date_range as $item)
                       <option value="{{ $item }}" {{ old('date') == $item ? 'selected' : '' }} {{ date('Y/m/d H:i', strtotime("+1 day")) > ($item . ' 20:00') ? 'disabled' : '' }}>{{ $item }}</option>
                       @endforeach
@@ -476,7 +477,6 @@
                   <div>
                     <label for="time"><i>* </i>希望預約時段</label>
                     <select id="time" name="time" onchange="check_datetime()">
-                        <option value="">請選擇</option>
                         @foreach ($time_range as $item)
                         <option data-value="{{ $item }}" value="{{ $item }}" {{ old('time') == $item ? 'selected' : '' }}>{{ $item }}</option>
                         @endforeach
