@@ -31,15 +31,17 @@ Route::get('/', function () {
 });
 
 Route::get('/uq-jix', function () {
-    $instance = GoogleSheetWriteBehind::getInstance();
-    $data = $instance->Get();
+    // $instance = GoogleSheetWriteBehind::getInstance();
+    // $data = $instance->Get();
     return view('welcome', [
         'places' => array_keys(GoogleSheetWriteBehind::PlaceLimit),
         'date_range' => GoogleSheetWriteBehind::DateRange,
         'time_range' => GoogleSheetWriteBehind::TimeRange,
         'items' => GoogleSheetWriteBehind::ItemRange,
-        'countable' => $data['countable'],
-        'limitable' => $instance->getLimit(),
+        // 'countable' => $data['countable'],
+        // 'limitable' => $instance->getLimit(),
+        'countable' => [],
+        'limitable' => [],
     ]);
 })->name('index');
 
