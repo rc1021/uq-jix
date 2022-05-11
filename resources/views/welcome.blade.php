@@ -84,51 +84,40 @@
     </div>
 
     <!-- header -->
-    <div class="sec1 sec">
+    <div class="sec1 sec"> 
       <h1>
         <div class="sup">
-          <img class="_1280_inline" src="/images/1280/header_sup.png" alt="REHOW × JUST IN XX舊衣新生工坊">
-          <img class="_640" src="/images/640/header_sup.png" alt="REHOW × JUST IN XX舊衣新生工坊">
+          <img class="_1280_inline" src="images/1280/header_sup.png" alt="REHOW × JUST IN XX舊衣新生工坊">
+          <img class="_640" src="images/640/header_sup.png" alt="REHOW × JUST IN XX舊衣新生工坊">
         </div>
         <div class="title">加入我們使服裝重生讓愛循環</div>
-        <div class="sub">
-          JUST IN XX<br class="_640_inline"> 全球獨家二手衣改造寵物衣設計<br class="_640_inline"> 只在REHOW 舊衣新生工坊<br>
-          4/16、4/23、4/30於UNIQLO<br class="_640_inline">台北旗艦店、台中崇德路店、<br class="_640_inline">台南文賢路店<br class="_640_inline">快閃啟動
+        <!-- <div class="sub">
+          JUST IN XX 全球獨家二手衣改造寵物衣設計<br class="_640_inline"> 只在REHOW 舊衣新生工坊<br>
+          4/16、4/23、4/30於UNIQLO<br class="_640_inline">台北旗艦店、台中崇德路店、台南文賢路店<br class="_640_inline">快閃啟動
+        </div> -->
+
+        <div class="cons">
+          <h3 class="hea"><span>感謝<br class="_640_inline">各位顧客支持！</span></h3>
+  
+          <div class="pa">
+            <div>
+              <p>
+              《舊衣新生工坊快閃活動》<br class="_640_inline">已於4/30圓滿落幕。
+              </p>
+            </div>
+            <div>
+              <p>
+              我們將於近期公告第二波活動：網路訂購服務。<br class="_1280_inline">讓大家宅家也能響應永續共好的行動唷！
+              </p>
+            </div>
+          </div>
+  
         </div>
       </h1>
       <div class="cover">
-        <img class="_1280_inline" src="/images/1280/header_cover.png" alt="加入我們使服裝重生讓愛循環">
-        <img class="_640" src="/images/640/header_cover.png" alt="加入我們使服裝重生讓愛循環">
+        <img class="_1280_inline" src="images/1280/header_cover.png" alt="加入我們使服裝重生讓愛循環">
+        <img class="_640" src="images/640/header_cover.png" alt="加入我們使服裝重生讓愛循環">
       </div>
-    </div>
-
-    <!-- 倒數兩周加碼 -->
-    <div class="sec1_1 sec">
-
-      <div class="cons">
-        <h3 class="hea"><small>REHOW × JUST IN XX<br class="_640_inline"> 舊衣新生工坊</small><br><span>倒數兩周！<br class="_640_inline">加碼<br class="_640_inline">4大貼心服務！</span></h3>
-
-        <div class="pa">
-          <div>
-            <p>
-              活動店舖：<br class="_640_inline">UNIQLO TAIPEI全球旗艦店、台中崇德路、台南文賢路店
-            </p>
-            <p>
-              活動時間：<br class="_640_inline">4/23(六) 4/30(六) 11:00-22:00
-            </p>
-          </div>
-          <div>
-            <ul>
-              <li>參與舊衣新生工坊製作寵物衣或抱枕免費送<span>限量哆啦A夢環保袋</span>，4/16成功下單顧客也會隨成品一起送環保袋！<br class="_1280_inline">(每日限量，每組訂單限送一個，全台總數量200份)</li>
-              <li>全新推出<span>專為貓咪設計的寵物背心</span>，超高CP值只要<span class="red">NT$390</span>！</li>
-              <li>三家店舖歡迎帶家中寵物到店現場測量尺寸。<br class="_1280_inline">(寵物入店時需全程於推車上，丈量尺寸時需短時間落地者則不在此限)</li>
-              <li>店舖貼心備有UNIQLO二手圓領T，<span>不需攜帶二手衣也能直接挑選樣式付費訂購</span>！</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
     </div>
 
     <!-- 關於我們 合作緣起 -->
