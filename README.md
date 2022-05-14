@@ -4,7 +4,7 @@ cd uq-jix/
 git fetch
 git pull origin 
 sudo docker-compose build
-sudo docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:1.14
+sudo docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:1.15
 sudo docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:latest
 cd ..
 
