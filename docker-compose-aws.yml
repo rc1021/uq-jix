@@ -8,6 +8,7 @@ services:
         volumes:
             - './nginx/nginx.conf:/etc/nginx/nginx.conf'
             - '.env:/var/www/html/.env'
+            - 'sail-webapp:/var/www/html/storage/app/public/uploads'
         networks:
             - local
         depends_on:
@@ -35,5 +36,7 @@ networks:
     local:
         driver: bridge
 volumes:
+    sail-webapp:
+        driver: local
     sail-mariadb:
         driver: local
