@@ -24,38 +24,46 @@
   <meta name="robots" content="index,follow">
 
 		<!-- Icons -->
-		<link rel="shortcut icon" href="ogimg/favicon/favicon.ico">
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-57x57-precomposed.png" sizes="57x57" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-60x60-precomposed.png" sizes="60x60" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-72x72-precomposed.png" sizes="72x72" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-76x76-precomposed.png" sizes="76x76" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-114x114-precomposed.png" sizes="114x114" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-120x120-precomposed.png" sizes="120x120" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-144x144-precomposed.png" sizes="144x144" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-152x152-precomposed.png" izes="152x152" >
-		<link rel="apple-touch-icon" type="image/png" href="ogimg/favicon/apple-touch-icon-180x180-precomposed.png" sizes="180x180" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-16x16.png" sizes="16x16" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-32x32.png" sizes="32x32" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-72x72.png" sizes="72x72" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-96x96.png" sizes="96x96" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-128x128.png" sizes="128x128" >
-		<link rel="icon" type="image/png" href="ogimg/favicon/favicon-196x196.png" sizes="196x196" >
-		<link rel="manifest" href="ogimg/favicon/site.webmanifest">
+		<link rel="shortcut icon" href="/ogimg/favicon/favicon.ico">
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-57x57-precomposed.png" sizes="57x57" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-60x60-precomposed.png" sizes="60x60" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-72x72-precomposed.png" sizes="72x72" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-76x76-precomposed.png" sizes="76x76" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-114x114-precomposed.png" sizes="114x114" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-120x120-precomposed.png" sizes="120x120" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-144x144-precomposed.png" sizes="144x144" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-152x152-precomposed.png" izes="152x152" >
+		<link rel="apple-touch-icon" type="image/png" href="/ogimg/favicon/apple-touch-icon-180x180-precomposed.png" sizes="180x180" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-16x16.png" sizes="16x16" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-32x32.png" sizes="32x32" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-72x72.png" sizes="72x72" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-96x96.png" sizes="96x96" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-128x128.png" sizes="128x128" >
+		<link rel="icon" type="image/png" href="/ogimg/favicon/favicon-196x196.png" sizes="196x196" >
+		<link rel="manifest" href="/ogimg/favicon/site.webmanifest">
 		<meta name="msapplication-TileColor" content="#2b5797">
 		<meta name="msapplication-config" content="browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
 
-  <link rel="stylesheet" type="text/css" href="fonts/uniqlo/css/uniqlo.css"/>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css"/>
-  <script src="https://kit.fontawesome.com/3de6e4f0a1.js"></script>
-
-
-
+    <link rel="stylesheet" type="text/css" href="/fonts/uniqlo/css/uniqlo.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    <script src="https://kit.fontawesome.com/3de6e4f0a1.js"></script>
+    @stack('styles')
 </head>
 
 <body>
-  @yield('content')
+    <div id="app">
+        @yield('content')
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tether@2.0.0-beta.5/dist/js/tether.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+    @stack('scripts')
 </body>
 </html>

@@ -5,6 +5,8 @@ namespace App\Providers;
 use App\Contracts\GoogleSheetWriteBehind;
 use App\Services\GoogleSheetWriteBehind as ServicesGoogleSheetWriteBehind;
 use Illuminate\Support\ServiceProvider;
+use Godruoyi\Snowflake\Snowflake;
+use Godruoyi\Snowflake\LaravelSequenceResolver;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,7 +17,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(GoogleSheetWriteBehind::class, ServicesGoogleSheetWriteBehind::class);
+        $this->app->singleton('snowflake', function () {
+            return (new Snowflake())
+                ->setStartTimeStamp(strtotime('2022-05-22')*1000)
+                ->setSequenceResolver(new LaravelSequenceResolver($this->app->get('cache')->store()));
+        });
     }
 
     /**

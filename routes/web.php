@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\PaynowController;
 use App\Services\GoogleSheetWriteBehind;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;
@@ -27,52 +29,9 @@ use Faker\Generator as Faker;
 // });
 
 Route::get('/', function () {
-    return redirect()->route('index');
+    return redirect()->route('uq-jix.index');
 });
 
-Route::get('/uq-jix', function () {
-    // $instance = GoogleSheetWriteBehind::getInstance();
-    // $data = $instance->Get();
-    return view('welcome', [
-        'places' => array_keys(GoogleSheetWriteBehind::PlaceLimit),
-        'date_range' => GoogleSheetWriteBehind::DateRange,
-        'time_range' => GoogleSheetWriteBehind::TimeRange,
-        'items' => GoogleSheetWriteBehind::ItemRange,
-        // 'countable' => $data['countable'],
-        // 'limitable' => $instance->getLimit(),
-        'countable' => [],
-        'limitable' => [],
-    ]);
-})->name('index');
+Route::resource('uq-jix', OrderController::class)->only(['index', 'store', 'show']);
 
-Route::post('/search', function () {
-    if($mobile = request()->input('mobile')) {
-        $instance = GoogleSheetWriteBehind::getInstance();
-        return redirect()->route('index')->with([
-            'search' => true,
-            'data' => $instance->Find($mobile),
-        ]);
-    }
-    return redirect()->route('index');
-})->name('form.search');
-
-Route::post('/', function () {
-    $inputs = request()->only(array_keys(GoogleSheetWriteBehind::DefindCols));
-    do {
-        // 使用原子鎖執行任務
-        $appended = GoogleSheetWriteBehind::getInstance()->Lock(function ($instance) use ($inputs) {
-            // 寫入暫存區
-            $instance->Append($inputs);
-        });
-        // 是否已寫入, 已寫入暫存區則跳出迴圈並做出回應
-        if($appended)
-            break;
-        // 等待 1 秒後再試寫一次
-        sleep(1);
-    } while(true);
-    $instance = GoogleSheetWriteBehind::getInstance();
-    return redirect()->route('index')->with([
-        'status' => '已報名成功',
-        'data' => $instance->replaceKeys($inputs)
-    ]);
-})->name('form.post');
+Route::post('paynow/{method}', PaynowController::class)->name('paynow');
