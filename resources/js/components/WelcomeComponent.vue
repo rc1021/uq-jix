@@ -295,7 +295,7 @@
                         </div>
                         <div>
                             <label class="_640"><small>數量</small></label>
-                            <input type="number" name="quantity[]" min="0" v-model="item.quantity">
+                            <input type="number" name="quantity[]" min="0" v-model="item.quantity" @keyup="protectedQuantity($event, item)">
                         </div>
                         <div>
                             <label class="_640"><small>金額(單價)</small></label>
@@ -1121,6 +1121,10 @@
             }
         },
         methods: {
+            protectedQuantity(event, item) {
+                if(isNaN(parseInt(event.target.value, 10)) || parseInt(event.target.value, 10) < 0)
+                    item.quantity = 0;
+            },
             FindOrder(event) {
                 window.location.href = this.showUrl.replace('replace_it', event.target.number.value);
             },

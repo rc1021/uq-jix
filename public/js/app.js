@@ -19385,6 +19385,9 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   methods: {
+    protectedQuantity: function protectedQuantity(event, item) {
+      if (isNaN(parseInt(event.target.value, 10)) || parseInt(event.target.value, 10) < 0) item.quantity = 0;
+    },
     FindOrder: function FindOrder(event) {
       window.location.href = this.showUrl.replace('replace_it', event.target.number.value);
     },
@@ -19575,7 +19578,7 @@ var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_39 = ["onUpdate:modelValue"];
+var _hoisted_39 = ["onUpdate:modelValue", "onKeyup"];
 
 var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "class": "_640"
@@ -20133,9 +20136,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       min: "0",
       "onUpdate:modelValue": function onUpdateModelValue($event) {
         return item.quantity = $event;
+      },
+      onKeyup: function onKeyup($event) {
+        return _ctx.protectedQuantity($event, item);
       }
-    }, null, 8
-    /* PROPS */
+    }, null, 40
+    /* PROPS, HYDRATE_EVENTS */
     , _hoisted_39), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, item.quantity]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.price_prefix), 1
     /* TEXT */
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.products[item.product_id].price), 1
@@ -20641,16 +20647,16 @@ $(function () {
   }).trigger('change'); //   $(".addmore").click(function(){
   //     $(".sinbody>.sin:last-child").after('<div class="sin"><div><label class="_640"><small>品項</small></label><div class="i_name R_name">寵物帽T NT$790</div></div><div><label class="_640"><small>尺寸</small></label><select><option selected value="XS">XS</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="2XL">2XL</option><option value="3XL">3XL</option><option value="4XL">4XL</option><option value="5XL">5XL</option></select></div><div><label class="_640"><small>數量</small></label><input type="number" min="0" value="0"></div><div><label class="_640"><small>金額</small></label><div class="i_price">NT$<span>790</span></div></div></div>');
   //   });
-
-  $('.havetoChecked').click(function () {
-    if ($(this).prop("checked") == true) {
-      // console.log("Checkbox is checked.");
-      $('.action button').attr("disabled", false);
-    } else if ($(this).prop("checked") == false) {
-      // console.log("Checkbox is unchecked.");
-      $('.action button').attr("disabled", true);
-    }
-  });
+  //   $('.havetoChecked').click(function(){
+  //     if($(this).prop("checked") == true){
+  //       // console.log("Checkbox is checked.");
+  //       $('.action button').attr("disabled", false);
+  //     }
+  //     else if($(this).prop("checked") == false){
+  //       // console.log("Checkbox is unchecked.");
+  //       $('.action button').attr("disabled",true);
+  //     }
+  //   });
 });
 
 /***/ }),

@@ -130,15 +130,15 @@ $(function() {
 //   });
 
 
-  $('.havetoChecked').click(function(){
-    if($(this).prop("checked") == true){
-      // console.log("Checkbox is checked.");
-      $('.action button').attr("disabled", false);
-    }
-    else if($(this).prop("checked") == false){
-      // console.log("Checkbox is unchecked.");
-      $('.action button').attr("disabled",true);
-    }
-  });
+//   $('.havetoChecked').click(function(){
+//     if($(this).prop("checked") == true){
+//       // console.log("Checkbox is checked.");
+//       $('.action button').attr("disabled", false);
+//     }
+//     else if($(this).prop("checked") == false){
+//       // console.log("Checkbox is unchecked.");
+//       $('.action button').attr("disabled",true);
+//     }
+//   });
 
 });
