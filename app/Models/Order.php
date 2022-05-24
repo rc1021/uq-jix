@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
 
 class Order extends Model
 {
@@ -28,6 +29,12 @@ class Order extends Model
         'total', // 總金額
     ];
 
+    protected $casts = [
+        'created_at' => 'timestamp',
+    ];
+
+    protected $appends = ['is_paied', 'upload_image_url'];
+
     /**
      * 項目明細
      *
@@ -43,9 +50,25 @@ class Order extends Model
      *
      * @return void
      */
-    public function payment_requests()
+    public function payments()
     {
         return $this->hasMany(PaymentRequest::class);
+    }
+
+    public function getIsPaiedAttribute()
+    {
+        $this->load('payments.rep');
+        if($this->payments->count() > 0)
+            // return $this->payments->pluck('rep')->contains('TranStatus', 'S');
+            return data_get($this->payments->last(), 'rep.TranStatus') == 'S';
+        return false;
+    }
+
+    public function getUploadImageUrlAttribute()
+    {
+        if($this->file)
+            return Storage::url($this->file);
+        return null;
     }
 
     /**
@@ -74,8 +97,8 @@ class Order extends Model
             // 'Note2' => '',                                   // 備註 2
         ];
 
-        if($params['PayType'] == '03')
-            $params['AtmRespost'] = 1;                       // 需回傳虛擬擬帳號
+        // if($params['PayType'] == '03')
+        //     $params['AtmRespost'] = 1;                       // 需回傳虛擬擬帳號
 
         if($params['PayType'] == '05')
             $params['CodeType'] = 1;                         // 代碼繳費服務辨識代號

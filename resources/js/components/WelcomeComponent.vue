@@ -979,7 +979,7 @@
                 </div>
             </div>
 
-            <template v-if="orders && orders.length > 0">
+            <template v-if="my_orders && my_orders.length > 0">
             <div class="modal fade show" id="checkstatus2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-modal="true" role="dialog" style="display: block;">
                 <div class="modal-dialog modal-dialog-centered  modal-lg">
                     <div class="modal-content">
@@ -988,9 +988,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        <template :key="index" v-for="(order, index) in orders">
-                            <div v-if="orders.length > 1" class="text-xl border-4 border-dashed border-slate-200 text-slate-400 !my-1 !p-2">
-                                #{{index+1}}
+                        <template :key="index" v-for="(order, index) in my_orders.reverse()">
+                            <div v-if="my_orders.length > 1" class="text-xl border-4 border-dashed border-slate-200 text-slate-400 !my-1 !p-2">
+                                #{{index+1}}/{{my_orders.length}}
                             </div>
                         <table class="table">
                             <thead>
@@ -1014,7 +1014,15 @@
                             </tr>
                             <tr>
                                 <th scope="row">總金額</th>
-                                <td>{{ orderConfig.price_prefix }}{{ order.total + order.delivery_fee }}</td>
+                                <td class="space-x-4">
+                                    <span>{{ orderConfig.price_prefix }}{{ order.total + order.delivery_fee }}</span>
+                                    <template v-if="order.is_paied">
+                                        <span class="text-green-600">(已付款)</span>
+                                    </template>
+                                    <template v-else>
+                                        <span class="text-rose-400">(尚未付款)</span>
+                                    </template>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">是否提供自備舊衣改造</th>
@@ -1032,9 +1040,9 @@
                             </tr>
 
                             <!-- 如果是選：否 (使用回收舊衣製作，顏色不指定) -->
-                            <tr v-if="order.reuse_self == 1">
+                            <tr v-if="order.reuse_self == 1 && order.upload_image_url">
                                 <th scope="row">毛小孩照片分享</th>
-                                <td><img style="width: 100%; max-width: 320px;" src="/images/1280/items_sec1_img1.png"></td>
+                                <td><img style="width: 100%; max-width: 320px;" :src="order.upload_image_url"></td>
                             </tr>
 
                             <tr>
@@ -1094,7 +1102,7 @@
     import axios from 'axios'
 
     export default defineComponent({
-        props: ['orderConfig', 'orders', 'postUrl', 'showUrl'],
+        props: ['orderConfig', 'paynowConfig', 'orders', 'postUrl', 'showUrl'],
         computed: {
             subtotal() {
                 return _.reduce(this.items, (sum, item) => sum + this.orderConfig.products[item.product_id].price * item.quantity, 0);
@@ -1124,20 +1132,28 @@
                 });
             },
             PostSubmit($event) {
+                let that = this;
                 this.submited = true;
                 if(!this.validated) {
                     alert('* 為必填欄位');
                     return false;
                 }
                 var bodyFormData = new FormData($event.target);
-                axios({
-                    method: $event.target.method,
-                    url: $event.target.action,
-                    data: bodyFormData,
-                    headers: { "Content-Type": "multipart/form-data" },
+                axios.post($event.target.action, bodyFormData, {
+                    headers: {
+                        "Content-Type": "multipart/form-data",
+                    },
                 })
                 .then(function (response) {
                     if(response.data.payurl) {
+                        if(that.pay_type == '03') {
+                            that.my_orders = [response.data.order];
+                            setTimeout(function () {
+                                alert('已成功建立訂單，請記住您的訂單編號('+response.data.order.order_number+')，按確認前往ATM付款');
+                                window.location.href = response.data.payurl;
+                            }, 500);
+                            return ;
+                        }
                         window.location.href = response.data.payurl;
                         return ;
                     }
@@ -1151,6 +1167,7 @@
             return  {
                 submited: false,
                 checked: false,
+                my_orders: [],
                 items: [
                     {
                         product_id: 0,
@@ -1180,7 +1197,7 @@
             }
         },
         created() {
-
+            this.my_orders = this.orders;
         }
     })
 </script>

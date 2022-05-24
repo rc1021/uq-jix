@@ -66,7 +66,27 @@ class PaynowController extends Controller
      */
     private function offlinepay(Request $request)
     {
+        $note1 = [];
+        try {
+            $note1 = json_decode(urldecode($request->input('Note1')), true);
+        }
+        catch(Exception $e) {}
 
+        // 新增 response
+        return PaymentResponse::create(collect($request->input())->only([
+            'payment_request_id',
+            'BuysafeNo',
+            'OrderNo',
+            'PassCode',
+            'TotalPrice',
+            'PayType',
+            'TranStatus',
+            'ATMNo',
+            'BankCode',
+            'BranchCode',
+            'NewDate',
+            'DueDate',
+        ])->transform(fn ($val, $key) => urldecode($val))->merge($note1)->toArray());
     }
 
     /**

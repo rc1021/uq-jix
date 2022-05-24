@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Order;
 use App\Models\OrderItem;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 
 class OrderController extends Controller
@@ -27,7 +28,7 @@ class OrderController extends Controller
      */
     public function show($uq_jix)
     {
-        $orders = Order::with('items')->where('order_number', $uq_jix)->orWhere('phone', $uq_jix)->get();
+        $orders = Order::with(['items', 'payments.rep'])->where('order_number', $uq_jix)->orWhere('phone', $uq_jix)->get();
         if($orders->count() > 0)
             return view('welcome', compact('orders'));
         return view('welcome', ['message' => '找不到訂單']);
@@ -50,9 +51,14 @@ class OrderController extends Controller
             'corpName' => 'bail|required_if:receipt,1',
             'taxIDnumber' => 'bail|required_if:receipt,1',
             'quantity_count' => 'bail|min:1',
-            'file' => 'file|size:' . (1024 * 5),
+            // 'file' => 'file|size:' . (1024 * 5),
         ]);
 
+        // 圖檔儲存
+        $filepath = '';
+        if($request->hasFile('file')){
+            $filepath = $request->file->store('public/uploads');
+        }
 
         $items = collect([]);
         collect($request->input('size'))
@@ -101,6 +107,10 @@ class OrderController extends Controller
         ])));
 
         // 圖檔儲存
+        if (!empty($filepath)) {
+            $order->file = $filepath;
+            $order->save();
+        }
 
         // 加入項目
         $order->items()->saveMany($items);
