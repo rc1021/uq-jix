@@ -7,9 +7,3 @@ services:
         image: fpm-alpine-7.4/uq-jix
         ports:
             - '32100:80'
-        volumes:
-            - '.env:/var/www/html/.env'
-        networks:
-            - local
-networks:
-    local:
