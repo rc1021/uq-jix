@@ -3,9 +3,9 @@ ssh uqjix
 cd uq-jix/
 git fetch
 git pull origin 
-sudo docker-compose build
-sudo docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:1.15
-sudo docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:latest
+docker-compose build
+docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:1.16
+docker tag fpm-alpine-7.4/uq-jix rc701021/uq-jix:latest
 cd ..
 
 sudo docker exec -it ec2-user_webapp_1 php artisan tinker
