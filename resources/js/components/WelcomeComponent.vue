@@ -1025,6 +1025,10 @@
                                 </td>
                             </tr>
                             <tr>
+                                <th scope="row">付款方式</th>
+                                <td>{{ orderConfig.paytype[order.pay_type] }}</td>
+                            </tr>
+                            <tr>
                                 <th scope="row">是否提供自備舊衣改造</th>
                                 <td>{{ orderConfig.reuse_self[order.reuse_self] }}</td>
                             </tr>

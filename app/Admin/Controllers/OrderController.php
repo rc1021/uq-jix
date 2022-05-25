@@ -33,6 +33,20 @@ class OrderController extends AdminController
         $grid->column('created_at', __('建立日期'))->display(fn($created_at) => date('Y-m-d H:i', $created_at));
         $grid->column('order_number', __('訂單編號'))->expand(function ($model) {
             $tab = new Tab();
+            $tab->add('訂購明細', new Table([
+                __('品名'),
+                __('尺寸'),
+                __('數量'),
+                __('金額小計'),
+            ],
+            $model->items->map(function ($item, $ind) {
+                return [
+                    config('order.products.' . $item->product_id . '.title'),
+                    $item->size,
+                    $item->quantity,
+                    $item->quantity * config('order.products.' . $item->product_id . '.price'),
+                ];
+            })->toArray()));
             $table = '';
             if($model->reuse_self) {
                 $table = new Table([
