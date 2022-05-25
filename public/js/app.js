@@ -19386,7 +19386,10 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     protectedQuantity: function protectedQuantity(event, item) {
-      if (isNaN(parseInt(event.target.value, 10)) || parseInt(event.target.value, 10) < 0) item.quantity = 0;
+      this.$nextTick(function () {
+        if (isNaN(parseInt(event.target.value, 10)) || parseInt(event.target.value, 10) < 0) item.quantity = 0;
+        if (event.target.value.startsWith('0')) event.target.value = parseInt(event.target.value, 10);
+      });
     },
     FindOrder: function FindOrder(event) {
       window.location.href = this.showUrl.replace('replace_it', event.target.number.value);
