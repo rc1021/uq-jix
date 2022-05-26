@@ -8,6 +8,7 @@ use Encore\Admin\Grid;
 use Encore\Admin\Show;
 use Encore\Admin\Widgets\Table;
 use Encore\Admin\Widgets\Tab;
+use Encore\Admin\Widgets\InfoBox;
 use \App\Models\Order;
 use Illuminate\Support\Facades\URL;
 
@@ -18,7 +19,7 @@ class OrderController extends AdminController
      *
      * @var string
      */
-    protected $title = 'Order';
+    protected $title = '訂單管理';
 
     /**
      * Make a grid builder.
@@ -29,8 +30,7 @@ class OrderController extends AdminController
     {
         $grid = new Grid(new Order());
 
-        $grid->column('id', __('序號'));
-        $grid->column('created_at', __('建立日期'))->display(fn($created_at) => date('Y-m-d H:i', $created_at));
+        $grid->column('created_at', __('建立日期'))->display(fn($created_at) => date('Y-m-d H:i', $created_at))->sortable();
         $grid->column('order_number', __('訂單編號'))->expand(function ($model) {
             $tab = new Tab();
             $tab->add('訂購明細', new Table([
@@ -77,22 +77,47 @@ class OrderController extends AdminController
                 ]);
             }
             $tab->add('衣物改造', $table);
-            $tab->add('商品配送、付款及發票', new Table([
+            $tab->add('商品配送及發票', new Table([
                 __('商品配送方式'),
-                __('付款方式'),
                 __('發票開立格式'),
                 __('發票抬頭'),
                 __('統一編號'),
             ], [
                 [
                     config('order.shipping.' . $model->deliver . '.title'),
-                    ($this->is_paied) ? config('order.paytype.' . $model->pay_type) : sprintf('<del style="color: red;">%s</del>', config('order.paytype.' . $model->pay_type)),
                     config('order.invoice.' . $model->receipt),
                     $model->corpName,
                     $model->taxIDnumber,
                 ]
             ]));
-            return $tab->render();
+            $tab2 = new Tab();
+            $tab2->add('付款方式及紀錄', new Table([
+                __('建立日期'),
+                __('付款方式'),
+                __('預計付款費用'),
+                __('付款狀態'),
+                __('其它資訊'),
+            ], $model->payments->map(function ($payment) {
+                $other = '';
+                if($payment->PayType == '01' && $payment->rep) {
+                    $cf = ($payment->rep->Card_Foreign) ? '國外卡' : '國內卡';
+                    $other = <<<EOF
+信用卡末四碼：{$payment->rep->pan_no4}<br>
+卡類：{$cf}
+EOF;
+                }
+                return [
+                    $payment->created_at,
+                    config('order.paytype.' . $payment->PayType),
+                    $payment->TotalPrice,
+                    (!$payment->rep) ? '' : sprintf("%s%s",
+                        ($payment->rep->TranStatus == 'S') ? '<span style="color:green;">成功</span>' : '<span style="color:red;">失敗</span>',
+                        (is_null($payment->rep->ErrDesc)) ? '' : '：' . $payment->rep->ErrDesc
+                    ),
+                    $other
+                ];
+            })->toArray()));
+            return $tab->render() . $tab2->render();
         });
         $grid->column('name', __('收件人姓名'));
         $grid->column('phone', __('手機號碼'));
@@ -101,10 +126,18 @@ class OrderController extends AdminController
         $grid->column('delivery_fee', __('運費'));
         $grid->column('total', __('商品金額'));
         $grid->column('allprice', __('總金額'))->display(function($allprice) {
-            return sprintf('%s %s', $this->total + $this->delivery_fee, ($this->is_paied)
-                ? '&nbsp;<small style="color: green;">已付款</small>'
-                : '&nbsp;<small style="color: red;">尚未付款</small>');
+            return $this->total + $this->delivery_fee;
         });
+        $grid->column('payments', __('付款方式'))->display(function($payments) {
+            return config('order.paytype.' . $this->pay_type) . '(' . count($payments) . '筆' . ')';
+        });
+        $grid->column('is_paied', __('付款狀態'))->using([
+            2 => '已付款',
+            3 => '付款失敗',
+        ], '尚未付款')->dot([
+            2 => 'success',
+            3 => 'danger',
+        ], 'warning')->sortable();
 
         $grid->filter(function($filter){
             $filter->disableIdFilter();
@@ -112,8 +145,13 @@ class OrderController extends AdminController
             $filter->like('name', __('收件人姓名'));
             $filter->like('phone', __('手機號碼'));
             $filter->like('email', __('Email'));
+            $filter->equal('is_paied', __('付款狀態'))->radio([
+                ''   => '全部',
+                1    => '尚未付款',
+                2    => '已付款',
+                3    => '付款失敗',
+            ]);
         });
-        $grid->disableActions();
         $grid->disableCreateButton();
         $grid->disableExport();
         $grid->disableRowSelector();

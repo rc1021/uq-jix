@@ -14,7 +14,12 @@ $(window).on('resize', function(){
 $(function() {
 
   $(".navburger").click(function() {
-    $(".theNavibar").attr("data-status", "on");
+    var status = $(".theNavibar").attr("data-status");
+    if(status == "on"){
+      $(".theNavibar").attr("data-status", "off");
+    }else{
+      $(".theNavibar").attr("data-status", "on");
+    }
     return false;
   });
   $(".g1").click(function() {

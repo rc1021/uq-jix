@@ -20,7 +20,8 @@
         <li><a class="g11" href="" data-bs-toggle="modal" data-bs-target="#checkstatus">查詢訂單</a></li>
       </ul>
       <a class="navburger">
-        <img src="/images/640/nav.png" alt="navburger">
+        <img class="_navburger" src="/images/640/nav.png" alt="navburger">
+        <img class="navclose" src="/images/640/navclose.png" alt="navclose">
       </a>
     </div>
 
@@ -266,7 +267,7 @@
                       <div><label><small>品項</small></label></div>
                       <div><label><small>尺寸</small></label></div>
                       <div><label><small>數量</small></label></div>
-                      <div><label><small>金額(單價)</small></label></div>
+                      <div><label><small>金額</small></label></div>
                     </div>
                     <div class="sinbody">
                     <div :key="index" v-for="(item, index) in items" class="sin">
@@ -298,8 +299,8 @@
                             <input type="number" name="quantity[]" min="0" v-model="item.quantity" @keyup="protectedQuantity($event, item)">
                         </div>
                         <div>
-                            <label class="_640"><small>金額(單價)</small></label>
-                            <div class="i_price">{{ orderConfig.price_prefix }}<span>{{ orderConfig.products[item.product_id].price }}</span></div>
+                            <label class="_640"><small>金額</small></label>
+                            <div class="i_price">{{ orderConfig.price_prefix }}<span>{{ orderConfig.products[item.product_id].price * item.quantity }}</span></div>
                         </div>
                       </div>
                     </div>
@@ -487,7 +488,14 @@
               </div>
               <div class="spliter"></div>
               <div class="action">
-                <button :disabled="!validated" class="disabled:cursor-not-allowed" type="submit"><span v-if="total > 0">總金額 {{ orderConfig.price_prefix + total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }} </span> 立即訂購付款</button>
+                <button :disabled="!validated" class="disabled:cursor-not-allowed space-x-2 flex items-center" type="submit">
+                    <svg v-if="submited" class="motion-reduce:hidden animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span v-if="total > 0">總金額 {{ orderConfig.price_prefix + total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }} </span>
+                    <span>立即訂購付款</span>
+                </button>
               </div>
             </form>
           </div>
@@ -1016,17 +1024,26 @@
                                 <th scope="row">總金額</th>
                                 <td class="space-x-4">
                                     <span>{{ orderConfig.price_prefix }}{{ order.total + order.delivery_fee }}</span>
-                                    <template v-if="order.is_paied">
+                                    <template v-if="order.is_paied==2">
                                         <span class="text-green-600">(已付款)</span>
                                     </template>
+                                    <template v-else-if="order.is_paied==3">
+                                        <span class="text-rose-400">(付款失敗)</span>
+                                    </template>
                                     <template v-else>
-                                        <span class="text-rose-400">(尚未付款)</span>
+                                        <span class=" text-slate-600">(尚未付款)</span>
                                     </template>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">付款方式</th>
-                                <td>{{ orderConfig.paytype[order.pay_type] }}</td>
+                                <td class="space-2">
+                                    <div>{{ orderConfig.paytype[order.pay_type] }}</div>
+                                    <div v-if="order.pay_type=='03'">匯款帳號資訊已寄至收件人Email信箱，再請查收Email喔，謝謝！</div>
+                                    <template v-if="order.is_paied!=2">
+                                        <a :href="repayUrl.replace('replace_it', order.order_number)" class="text-white rounded hover:bg-[#379e48] bg-[#44ad56] !mt-2 !p-2.5 !py-2">立即付款</a>
+                                    </template>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">是否提供自備舊衣改造</th>
@@ -1106,7 +1123,7 @@
     import axios from 'axios'
 
     export default defineComponent({
-        props: ['orderConfig', 'paynowConfig', 'orders', 'postUrl', 'showUrl'],
+        props: ['orderConfig', 'paynowConfig', 'orders', 'postUrl', 'showUrl', 'repayUrl'],
         computed: {
             subtotal() {
                 return _.reduce(this.items, (sum, item) => sum + this.orderConfig.products[item.product_id].price * item.quantity, 0);

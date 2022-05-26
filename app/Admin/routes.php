@@ -11,7 +11,9 @@ Route::group([
     'as'            => config('admin.route.prefix') . '.',
 ], function (Router $router) {
 
-    $router->get('/', 'HomeController@index')->name('home');
+    $router->get('/', function () {
+        return redirect()->route('admin.orders.index');
+    })->name('home');
     $router->resource('orders', OrderController::class);
 
 });

@@ -4,6 +4,7 @@
     <welcome-component
         :post-url="'{{ route('uq-jix.store') }}'"
         :show-url="'{{ route('uq-jix.show', ['uq_jix' => 'replace_it']) }}'"
+        :repay-url="'{{ route('paynow.repay', ['number' => 'replace_it']) }}'"
         :orders="{{ $orders ?? '{}' }}"
         :order-config="{{ json_encode(config('order')) }}"
         :paynow-config="{{ json_encode(config('paynow')) }}" />

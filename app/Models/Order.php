@@ -33,7 +33,7 @@ class Order extends Model
         'created_at' => 'timestamp',
     ];
 
-    protected $appends = ['is_paied', 'upload_image_url'];
+    protected $appends = ['upload_image_url'];
 
     /**
      * 項目明細
@@ -53,15 +53,6 @@ class Order extends Model
     public function payments()
     {
         return $this->hasMany(PaymentRequest::class);
-    }
-
-    public function getIsPaiedAttribute()
-    {
-        $this->load('payments.rep');
-        if($this->payments->count() > 0)
-            // return $this->payments->pluck('rep')->contains('TranStatus', 'S');
-            return data_get($this->payments->last(), 'rep.TranStatus') == 'S';
-        return false;
     }
 
     public function getUploadImageUrlAttribute()

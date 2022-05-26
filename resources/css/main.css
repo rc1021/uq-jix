@@ -1153,7 +1153,7 @@ body{
 .theNavibar ul li{
   text-align: center;
   width: 100%;
-  line-height: 50px;
+  line-height: 49px;
   font-size: 18px;
 }
 .theNavibar ul li a{
@@ -1162,10 +1162,20 @@ body{
 }
 
 .theNavibar[data-status="on"] .navburger{
+  display: block;
+}
+.theNavibar[data-status="on"] .navburger ._navburger{
   display: none;
+}
+.theNavibar[data-status="on"] .navburger .navclose{
+  display: block;
 }
 .theNavibar[data-status="on"] ul{
   display: block;
+  padding-top: 49px;
+}
+.theNavibar[data-status="on"] ul li:first-child{
+  border-top: 1px solid #dadada;
 }
 .theNavibar[data-status="on"]{
   width: 100%;
@@ -1175,6 +1185,12 @@ body{
 
 .theNavibar[data-status="off"] .navburger{
   display: block;
+}
+.theNavibar[data-status="off"] .navburger ._navburger{
+  display: block;
+}
+.theNavibar[data-status="off"] .navburger .navclose{
+  display: none;
 }
 .theNavibar[data-status="off"] ul{
   display: none;

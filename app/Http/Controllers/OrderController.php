@@ -7,6 +7,8 @@ use App\Models\OrderItem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\OrderCreated;
 
 class OrderController extends Controller
 {
@@ -28,6 +30,8 @@ class OrderController extends Controller
      */
     public function show($uq_jix)
     {
+        if(!empty($uq_jix))
+            $uq_jix = trim($uq_jix);
         $orders = Order::with(['items', 'payments.rep'])->where('order_number', $uq_jix)->orWhere('phone', $uq_jix)->get();
         if($orders->count() > 0)
             return view('welcome', compact('orders'));
@@ -82,10 +86,14 @@ class OrderController extends Controller
                 }
             });
 
+        // max number
+        $max = Order::whereBetween('created_at', [date('Y-m-d').' 00:00:00', date('Y-m-d').' 23:59:59'])->count() + 1;
+        $order_number = date('Ymd').str_pad($max, 4, "0", STR_PAD_LEFT);
+
         // 建立訂單明細
         $order = Order::create(array_merge([
             // 訂單編號
-            'order_number' => snowflake(),
+            'order_number' => $order_number,
             // 取得運費
             'delivery_fee' => data_get(config('order'), 'shipping.' . $request->input('deliver') . '.price', 0),
             // 總金額
@@ -117,6 +125,8 @@ class OrderController extends Controller
 
         // 製作付款網址
         $payurl = $order->getPaymentUrl();
+
+        Mail::to($order->email)->send(new OrderCreated($order));
 
         return response()->json(compact('order', 'payurl'));
     }

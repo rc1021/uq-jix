@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use App\Models\PaymentResponse;
 use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class PaynowController extends Controller
 {
@@ -25,6 +27,15 @@ class PaynowController extends Controller
         abort(401);
     }
 
+    public function repay(Request $request, $number)
+    {
+        $order = Order::where('order_number', $number)->first();
+        if($order) {
+            return redirect($order->getPaymentUrl());
+        }
+        return redirect()->route('uq-jix', ['uq_jix' => $number]);
+    }
+
 
     /**
      * 交易結果接收網址〈信用卡、WebATM〉
@@ -36,6 +47,7 @@ class PaynowController extends Controller
      */
     private function biller(Request $request)
     {
+        Log::info('交易結果接收網址〈信用卡、WebATM〉', $request->input());
         $note1 = [];
         try {
             $note1 = json_decode(urldecode($request->input('Note1')), true);
@@ -43,7 +55,7 @@ class PaynowController extends Controller
         catch(Exception $e) {}
 
         // 新增 response
-        return PaymentResponse::create(collect($request->input())->only([
+        return tap(PaymentResponse::create(collect($request->input())->only([
             'payment_request_id',
             'BuysafeNo',
             'PassCode',
@@ -55,7 +67,21 @@ class PaynowController extends Controller
             'ErrDesc',
             'pan_no4',
             'Card_Foreign',
-        ])->transform(fn ($val, $key) => urldecode($val))->merge($note1)->toArray());
+        ])->transform(fn ($val, $key) => urldecode($val))->merge($note1)->toArray()), function ($rep) {
+            $order = data_get($rep, 'req.order');
+            if($order) {
+                if(data_get($rep, 'TranStatus') == 'S') {
+                    $order->is_paied = 2;
+                }
+                else {
+                    $order->is_paied = 3;
+                }
+                $order->save();
+            }
+            else {
+                Log::error('交易結果接收網址〈信用卡、WebATM〉失敗，找不到訂單', compact('rep'));
+            }
+        });
     }
 
     /**
@@ -66,6 +92,7 @@ class PaynowController extends Controller
      */
     private function offlinepay(Request $request)
     {
+        Log::info('離線付款回傳網址〈虛擬帳號轉帳〉', $request->input());
         $note1 = [];
         try {
             $note1 = json_decode(urldecode($request->input('Note1')), true);
@@ -73,7 +100,7 @@ class PaynowController extends Controller
         catch(Exception $e) {}
 
         // 新增 response
-        return PaymentResponse::create(collect($request->input())->only([
+        return tap(PaymentResponse::create(collect($request->input())->only([
             'payment_request_id',
             'BuysafeNo',
             'OrderNo',
@@ -86,7 +113,21 @@ class PaynowController extends Controller
             'BranchCode',
             'NewDate',
             'DueDate',
-        ])->transform(fn ($val, $key) => urldecode($val))->merge($note1)->toArray());
+        ])->transform(fn ($val, $key) => urldecode($val))->merge($note1)->toArray()), function ($rep) {
+            $order = data_get($rep, 'req.order');
+            if($order) {
+                if(data_get($rep, 'TranStatus') == 'S') {
+                    $order->is_paied = 2;
+                }
+                else {
+                    $order->is_paied = 3;
+                }
+                $order->save();
+            }
+            else {
+                Log::error('離線付款回傳網址〈虛擬帳號轉帳〉失敗，找不到訂單', compact('rep'));
+            }
+        });
     }
 
     /**
@@ -97,7 +138,7 @@ class PaynowController extends Controller
      */
     private function givepay(Request $request)
     {
-
+        Log::info('已撥款回傳網址', $request->input());
     }
 
     /**
@@ -108,7 +149,7 @@ class PaynowController extends Controller
      */
     private function alreadpay(Request $request)
     {
-
+        Log::info('請款回傳網址', $request->input());
     }
 
     /**
@@ -119,6 +160,6 @@ class PaynowController extends Controller
      */
     private function package(Request $request)
     {
-
+        Log::info('物流結果回傳網址', $request->input());
     }
 }

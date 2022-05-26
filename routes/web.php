@@ -34,4 +34,5 @@ Route::get('/', function () {
 
 Route::resource('uq-jix', OrderController::class)->only(['index', 'store', 'show']);
 
+Route::get('repay/{number}', PaynowController::class.'@repay')->name('paynow.repay');
 Route::post('paynow/{method}', PaynowController::class)->name('paynow');
