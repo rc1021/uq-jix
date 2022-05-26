@@ -70,20 +70,20 @@ class Order extends Model
     public function getPaymentUrl()
     {
         $params = [
-            'WebNo' => config('paynow.WebNo'),               // 賣家登入帳號，如身分證開頭請為大寫 傳送。
-            'ECPlatform' => config('paynow.ECPlatform'),     // 商家網站名稱 (例 : XXX 購物網、對外 商店名稱)
-            'ReceiverName' => $this->name,                   // 消費者姓名
-            'ReceiverID' => $this->phone,                    // 消費者ID 消費者身分證/Email/手機號碼
-            'ReceiverTel' => $this->phone,                   // 消費者電話 若沒有手機可填入聯絡電 話
-            'ReceiverEmail' => $this->email,                 // 消費者 Email
-            'OrderNo' => $this->order_number,                // 商家自訂訂單編號
+            'WebNo' => config('paynow.WebNo'),
+            'ECPlatform' => 'REHOW',
+            'ReceiverName' => $this->name,
+            'ReceiverID' => $this->phone,
+            'ReceiverTel' => $this->phone,
+            'ReceiverEmail' => $this->email,
+            'OrderNo' => $this->order_number,
             'TotalPrice' => $this->total
-                          + $this->delivery_fee,             // 交易金額
-            'PayType' => data_get($this, 'pay_type', '01'),  // 付款方式
-            'AtmRespost' => 0,                               // 需回傳虛擬擬帳號
-            'DeadLine' => 0,                                 // 繳款期限
-            'PayEN' => 0,                                    // 中英文付款頁面
-            'EPT' => 1,                                      // 系統分系代數
+                          + $this->delivery_fee,
+            'PayType' => data_get($this, 'pay_type', '01'),
+            'AtmRespost' => 0,
+            'DeadLine' => 0,
+            'PayEN' => 0,
+            'EPT' => 1,
             // 'Note1' => '',                                   // 備註 1
             // 'Note2' => '',                                   // 備註 2
         ];
