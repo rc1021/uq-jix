@@ -33,7 +33,7 @@ class OrderCreated extends Mailable
     {
         $order = $this->order;
         $url = route('uq-jix.show', ['uq_jix' => $order->order_number]);
-        return $this->subject(config('app.name') . '訂購通知 #' . $order->order_number)
+        return $this->subject('《REHOW x JUST IN XX 舊衣新生工坊》 我們已收到你的訂單')
             ->cc(explode(';', env('Order_Created_Mail_CC')))
             ->markdown('emails.orders.created', compact('order', 'url'));
     }

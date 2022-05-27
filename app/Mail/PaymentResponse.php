@@ -33,7 +33,7 @@ class PaymentResponse extends Mailable
     {
         $order = $this->order;
         $url = route('uq-jix.show', ['uq_jix' => $order->order_number]);
-        return $this->subject(config('app.name') . '已付款通知 #' . $order->order_number)
+        return $this->subject('《REHOW x JUST IN XX 舊衣新生工坊》 訂單付款成功通知')
             ->cc(explode(';', env('Order_Created_Mail_CC')))
             ->markdown('emails.orders.payment_response', compact('order', 'url'));
     }
