@@ -21,6 +21,11 @@
 - Email：{{ $order->email }}
 - 地址：{{ $order->address }}
 
+@component('mail::button', ['url' => $url, 'color' => 'success'])
+前往訂單
+@endcomponent
+
+
 [防詐騙提醒]
 
 {{ config('app.name') }}不會以電話通知更改付款方式或要求改以ATM重新轉帳。亦不會委託廠商以電話通知變更付款方式或要求提供ATM匯款帳號。
