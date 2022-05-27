@@ -56,7 +56,7 @@ class OrderController extends Controller
             'corpName' => 'bail|required_if:receipt,1',
             'taxIDnumber' => 'bail|required_if:receipt,1',
             'quantity_count' => 'bail|min:1',
-            'file' => 'mimes:jpg,jpeg,gif,png|file|size:' . (1024 * 5),
+            'file' => 'mimes:jpg,gif,png',
         ], [
             'file.size' => ':attribute 大小超過 :size KB',
             'file.mimes' => ':attribute 只能上傳 JPEG, 或 PNG',
