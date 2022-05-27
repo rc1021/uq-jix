@@ -1480,9 +1480,14 @@ body{
   margin-bottom: 6vw;
 }
 .sec8 .formBody .main .action button{
-  line-height: 44px;
+  line-height: 32px;
   width: 100%;
-  padding: 0;
+  flex-flow: column nowrap;
+  font-size: 22px;
+  padding: 8px 0;
+}
+.sec8 .formBody .main .action button span{
+  margin-left: 0;
 }
 
 .chooseItem .sinHead{

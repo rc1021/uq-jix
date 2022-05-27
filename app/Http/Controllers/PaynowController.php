@@ -7,6 +7,7 @@ use App\Models\PaymentResponse;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 
 class PaynowController extends Controller
 {
@@ -20,8 +21,15 @@ class PaynowController extends Controller
     {
         if(method_exists($this, $method)) {
             $rep = $this->$method($request);
+            $order = data_get($rep, 'req.order');
+            try {
+                // 付款成功寄通知
+                $order->fresh();
+                Mail::to($order->email)->send(new \App\Mail\PaymentResponse($order));
+            }
+            catch(Exception $e) {}
             return redirect()->route('uq-jix.show', [
-                'uq_jix' => data_get($rep, 'req.order.order_number', ''),
+                'uq_jix' => $order->order_number,
             ]);
         }
         abort(401);

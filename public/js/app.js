@@ -19868,7 +19868,7 @@ var _hoisted_102 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStatic
 
 var _hoisted_103 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec5 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"></div><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title2.png\" alt=\"LifeWaer\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title2.png\" alt=\"LifeWaer\"></div></div><div class=\"aboutus_sub2\"> 使不再需要的二手衣循環重生，<br class=\"_640_inline\">實現回收、再利用與減碳減廢的未來! </div><div class=\"pa\"><p class=\"aboutus_des\"> 不再需要的衣物也能用來改善環境與社會嗎?<br> 自2014年以來台灣UNIQLO本著回收Recycle、再利用Reuse、減碳減廢Reduce的永續循環理念，攜手消費者、非營利組織與品牌夥伴，開創出二手衣物多元運用的管道，例如:舊衣料循環再製成新商品、作為弱勢團體緊急救難衣物、或與在地永續設計師合作展現二手衣再製重生之美，無法再利用的廢料最終還可製成環保燃料棒，使二手衣物以不同型式循環重生，朝零廢棄方向前進。<br> 加入服裝回收行動，讓我們一起使服裝重生，朝永續未來邁進。<a href=\"https://www.uniqlo.com/tw/collection/sustainability/l3/re-uniqlo/index.html\" target=\"_blank\">詳情請見官網</a></p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"></div></div><div class=\"more_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"></div></div></div>", 1);
 
-var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec10 sec\"><div class=\"cons\"><h3 class=\"hea\">FAQ</h3><div class=\"sectitle\"><span>常見問與答</span></div><div class=\"allq\"><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問活動時間？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 期間限定活動，即日起至8月31日止，於活動官網線上訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問欲訂製寵物衣尺寸該如何挑選？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請參閱 <a class=\"gotosec9_1\">寵物衣尺寸表</a>，體重及尺寸建議僅供參考，請務必測量後再訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問訂購流程？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請顧客於活動官網訂購，下單付款完成後， REHOW 將以UNIQLO 回收二手衣進行改造製作， 製作工期約14個工作天， 待製作完成將發送email通知出貨並寄至指定地點。 我們亦歡迎顧客提供個人UNIQLO 舊衣進行改造， 如選擇以個人舊衣進行改造：請將指定的UNIQLO舊衣寄送至REHOW 大直工作室， 或攜帶該舊衣至REHOW 反覆生活實驗室 (松山文創園區內)。 製作工期從收到自備的二手衣日開始計算14個工作天。 請務必確認訂製的商品內容是否正確， 送單後即無法修改訂單上的客製化內容。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>可以做客製化的調整嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 此改造服務僅提供固定款式、版型及尺寸，恕不可調整。<br class=\"_1280\"> 改造商品所使用之配件輔料將由REHOW 提供，恕無法提供選擇<br class=\"_1280\"> 如自備欲改造之衣物布面較小，將使用相近材料補齊，不再另行告知。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>想訂製自備舊衣改造的話需要提供什麼樣的衣服？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 風格抱枕與寵物帽T請提供至少1 件UNIQLO 圓領T。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>多久可以收到我訂製的商品？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 製作工期約14個工作天不包含訂購當天與國定假日。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>REHOW是否提供統一發票？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 發票由REHOW開立，發票將統一於交貨時隨貨附上，如需開立三聯式發票請詳填發票資訊。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務可以改造其他非UNIQLO的舊衣嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不行，此舊衣改造服務僅接受UNIQLO指定舊衣之改造。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>我提供的舊衣有剩餘布料未用於改造成品中，REHOW會返還剩餘布料給我嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不會，REHOW改造完成後，若顧客提供的UNIQLO舊衣有剩餘布料未用於改造成品中，視為顧客同意將該剩餘布料無償贈予REHOW進行其餘使用。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問舊衣會清洗嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請自行確認自備衣物狀態，現場受理之舊衣及改造完成品僅做簡單織品除菌，回收衣物將不另做清潔處理。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務是UNIQLO提供的嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不是，此改造服務委託關係僅存在於顧客與REHOW之間，與UNIQLO無涉，改造後成品品質與UNIQLO無關。若顧客對改造服務有任何問題，請直接聯繫REHOW窗口。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>如訂單有問題要如何聯繫？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 如有相關問題請詳參<a href=\"https://rehow.org/uq-jix\" target=\"_blank\">活動官網</a>、<a href=\"https://www.facebook.com/REHOW.TW/\" target=\"_blank\">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br> 臉書專頁回覆時間：周一至周五 10:00-18:00<br> 電話客服受理時間：周一至周六 (周二公休) 10:00-18:00 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>回收舊衣改造與自備舊衣改造的差別是什麼？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>回收舊衣改造：</b><br> 無須提供個人二手衣，REHOW 將隨機選用RE.UNIQLO 回收之二手圓領T 製作訂購商品，讓廢棄二手衣循環再利用，顏色圖樣隨機，恕無法指定樣式。<br> *可提供退換。</li><li><b>自備舊衣改造：</b><br> 我們鼓勵大家使用自己的UNIQLO 圓領T，讓用不到的二手衣重獲新生！製作成寵物衣還能讓寵物擁有習慣的主人味道~<br> *此為客製服務不提供退換</li></ul></div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>收到成品後如有問題是否可提供修改服務？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 可提供部分修改服務，需酌收修改費用，來回運費由消費者自行負擔。<br> 若欲修改，請先與客服聯繫確認修改需求細項與費用。<br><br><b>修改費用表參考：</b><ul><li>下擺 NT$100</li><li>袖子 NT$150</li><li>胸圍 NT$250</li><li>特殊修改 NT$350</li></ul> *已修改過的商品恕無法提供退換服務。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>是否可以退換貨？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>訂購回收舊衣改造</b><br> 您享有到貨七日內退換貨保證，請依照以下程序辦理：<br><ol><li>辦理退換貨前，請先電話或e-mail聯絡本公司客服人員，並請提供您的訂單號碼、退換貨原因及您的聯絡方式。<br>若您未事先告知就將商品寄回，本公司恕無法為您作退換貨或再寄回處理。</li><li>請務必於七日內憑發票辦理退換貨，未出示或超過期限者，恕無法接受退換貨，換貨日期是以收到發票及貨品當日（以郵戳或收執聯為憑)。</li><li>辦理退換貨之商品，如為商品本身瑕疵，我們會進行瑕疵鑑定，並儘速為您換新。若經檢驗後並無瑕疵，消費者則須自付所發生之費用。</li><li>因使用不當造成商品損壞者，恕無法接受退換貨。</li><li>辦理退換貨之商品，必需未開封或未使用過，即全新完整包裝狀態含所有隨貨附件、組件、贈品(如抱枕芯)等，否則恕無法接受退換貨。</li><li>確認退換商品後，本公司客服人員將依您的付款方式及訂購商品類別，10個工作天內為您提供最合適的退款方式。</li></ol> 特別說明:因商品本身瑕疵退換貨者，運費由本公司負擔(需使用郵局寄回)，一般退換貨者，消費者需自行吸收商品往返運費。 退回商品恕不接受貨到付運費(如消費者未經本公司事先同意，自行指定退回商品貨到付運費，本公司恕不受理收貨)。<br><br></li><li><b>訂購自備舊衣改造</b><br> 此改造服務為依顧客要求所為之客製化給付，在顧客下單後，REHOW開始依照訂單規格製作，恕無法取消訂單，亦無法退換貨。<br> (購買前請先考慮再送出訂單，不便之處，敬請見諒！)</li></ul></div></div></div></div></div></div>", 1);
+var _hoisted_104 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"FAQ\" class=\"sec10 sec\"><div class=\"cons\"><h3 class=\"hea\">FAQ</h3><div class=\"sectitle\"><span>常見問與答</span></div><div class=\"allq\"><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問活動時間？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 期間限定活動，即日起至8月31日止，於活動官網線上訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問欲訂製寵物衣尺寸該如何挑選？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請參閱 <a class=\"gotosec9_1\">寵物衣尺寸表</a>，體重及尺寸建議僅供參考，請務必測量後再訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問訂購流程？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請顧客於活動官網訂購，下單付款完成後， REHOW 將以UNIQLO 回收二手衣進行改造製作， 製作工期約14個工作天， 待製作完成將發送email通知出貨並寄至指定地點。 我們亦歡迎顧客提供個人UNIQLO 舊衣進行改造， 如選擇以個人舊衣進行改造：請將指定的UNIQLO舊衣寄送至REHOW 大直工作室， 或攜帶該舊衣至REHOW 反覆生活實驗室 (松山文創園區內)。 製作工期從收到自備的二手衣日開始計算14個工作天。 請務必確認訂製的商品內容是否正確， 送單後即無法修改訂單上的客製化內容。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>可以做客製化的調整嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 此改造服務僅提供固定款式、版型及尺寸，恕不可調整。<br class=\"_1280\"> 改造商品所使用之配件輔料將由REHOW 提供，恕無法提供選擇<br class=\"_1280\"> 如自備欲改造之衣物布面較小，將使用相近材料補齊，不再另行告知。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>想訂製自備舊衣改造的話需要提供什麼樣的衣服？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 風格抱枕與寵物帽T請提供至少1 件UNIQLO 圓領T。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>多久可以收到我訂製的商品？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 製作工期約14個工作天不包含訂購當天與國定假日。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>REHOW是否提供統一發票？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 發票由REHOW開立，發票將統一於交貨時隨貨附上，如需開立三聯式發票請詳填發票資訊。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務可以改造其他非UNIQLO的舊衣嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不行，此舊衣改造服務僅接受UNIQLO指定舊衣之改造。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>我提供的舊衣有剩餘布料未用於改造成品中，REHOW會返還剩餘布料給我嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不會，REHOW改造完成後，若顧客提供的UNIQLO舊衣有剩餘布料未用於改造成品中，視為顧客同意將該剩餘布料無償贈予REHOW進行其餘使用。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問舊衣會清洗嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請自行確認自備衣物狀態，現場受理之舊衣及改造完成品僅做簡單織品除菌，回收衣物將不另做清潔處理。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務是UNIQLO提供的嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不是，此改造服務委託關係僅存在於顧客與REHOW之間，與UNIQLO無涉，改造後成品品質與UNIQLO無關。若顧客對改造服務有任何問題，請直接聯繫REHOW窗口。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>如訂單有問題要如何聯繫？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 如有相關問題請詳參<a href=\"https://rehow.org/uq-jix\" target=\"_blank\">活動官網</a>、<a href=\"https://www.facebook.com/REHOW.TW/\" target=\"_blank\">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br> 臉書專頁回覆時間：周一至周五 10:00-18:00<br> 電話客服受理時間：周一至周六 (周二公休) 10:00-18:00 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>回收舊衣改造與自備舊衣改造的差別是什麼？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>回收舊衣改造：</b><br> 無須提供個人二手衣，REHOW 將隨機選用RE.UNIQLO 回收之二手圓領T 製作訂購商品，讓廢棄二手衣循環再利用，顏色圖樣隨機，恕無法指定樣式。<br> *可提供退換。</li><li><b>自備舊衣改造：</b><br> 我們鼓勵大家使用自己的UNIQLO 圓領T，讓用不到的二手衣重獲新生！製作成寵物衣還能讓寵物擁有習慣的主人味道~<br> *此為客製服務不提供退換</li></ul></div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>收到成品後如有問題是否可提供修改服務？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 可提供部分修改服務，需酌收修改費用，來回運費由消費者自行負擔。<br> 若欲修改，請先與客服聯繫確認修改需求細項與費用。<br><br><b>修改費用表參考：</b><ul><li>下擺 NT$100</li><li>袖子 NT$150</li><li>胸圍 NT$250</li><li>特殊修改 NT$350</li></ul> *已修改過的商品恕無法提供退換服務。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>是否可以退換貨？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>訂購回收舊衣改造</b><br> 您享有到貨七日內退換貨保證，請依照以下程序辦理：<br><ol><li>辦理退換貨前，請先電話或e-mail聯絡本公司客服人員，並請提供您的訂單號碼、退換貨原因及您的聯絡方式。<br>若您未事先告知就將商品寄回，本公司恕無法為您作退換貨或再寄回處理。</li><li>請務必於七日內憑發票辦理退換貨，未出示或超過期限者，恕無法接受退換貨，換貨日期是以收到發票及貨品當日（以郵戳或收執聯為憑)。</li><li>辦理退換貨之商品，如為商品本身瑕疵，我們會進行瑕疵鑑定，並儘速為您換新。若經檢驗後並無瑕疵，消費者則須自付所發生之費用。</li><li>因使用不當造成商品損壞者，恕無法接受退換貨。</li><li>辦理退換貨之商品，必需未開封或未使用過，即全新完整包裝狀態含所有隨貨附件、組件、贈品(如抱枕芯)等，否則恕無法接受退換貨。</li><li>確認退換商品後，本公司客服人員將依您的付款方式及訂購商品類別，10個工作天內為您提供最合適的退款方式。</li></ol> 特別說明:因商品本身瑕疵退換貨者，運費由本公司負擔(需使用郵局寄回)，一般退換貨者，消費者需自行吸收商品往返運費。 退回商品恕不接受貨到付運費(如消費者未經本公司事先同意，自行指定退回商品貨到付運費，本公司恕不受理收貨)。<br><br></li><li><b>訂購自備舊衣改造</b><br> 此改造服務為依顧客要求所為之客製化給付，在顧客下單後，REHOW開始依照訂單規格製作，恕無法取消訂單，亦無法退換貨。<br> (購買前請先考慮再送出訂單，不便之處，敬請見諒！)</li></ul></div></div></div></div></div></div>", 1);
 
 var _hoisted_105 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   "class": "float_banner",
@@ -20033,98 +20033,112 @@ var _hoisted_131 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 );
 
 var _hoisted_132 = {
-  "class": "space-2"
+  "class": "flex flex-col"
 };
 var _hoisted_133 = {
   key: 0
 };
-var _hoisted_134 = ["href"];
 
-var _hoisted_135 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_134 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("匯款帳號資訊已寄至收件人Email信箱，信件有可能被歸入在垃圾郵件夾中，");
+
+var _hoisted_135 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_136 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("再請查收Email喔，謝謝！");
+
+var _hoisted_137 = [_hoisted_134, _hoisted_135, _hoisted_136];
+var _hoisted_138 = {
+  key: 1,
+  "class": "my-2"
+};
+var _hoisted_139 = ["href"];
+
+var _hoisted_140 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "是否提供自備舊衣改造", -1
 /* HOISTED */
 );
 
-var _hoisted_136 = {
+var _hoisted_141 = {
   key: 0
 };
 
-var _hoisted_137 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_142 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "自備舊衣寄送方式", -1
 /* HOISTED */
 );
 
-var _hoisted_138 = {
+var _hoisted_143 = {
   key: 1
 };
 
-var _hoisted_139 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_144 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "圖案保留", -1
 /* HOISTED */
 );
 
-var _hoisted_140 = {
+var _hoisted_145 = {
   key: 2
 };
 
-var _hoisted_141 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_146 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "毛小孩照片分享", -1
 /* HOISTED */
 );
 
-var _hoisted_142 = ["src"];
+var _hoisted_147 = ["src"];
 
-var _hoisted_143 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "備註", -1
 /* HOISTED */
 );
 
-var _hoisted_144 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_149 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人姓名", -1
 /* HOISTED */
 );
 
-var _hoisted_145 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人手機號碼", -1
 /* HOISTED */
 );
 
-var _hoisted_146 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_151 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人Email", -1
 /* HOISTED */
 );
 
-var _hoisted_147 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_152 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件地址", -1
 /* HOISTED */
 );
 
-var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_153 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "商品配送方式", -1
 /* HOISTED */
 );
 
-var _hoisted_149 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_154 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "發票開立", -1
 /* HOISTED */
 );
 
-var _hoisted_150 = {
+var _hoisted_155 = {
   key: 0
 };
 
-var _hoisted_151 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_156 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-footer"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "/",
@@ -20133,7 +20147,7 @@ var _hoisted_151 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_152 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_157 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-backdrop fade show"
 }, null, -1
 /* HOISTED */
@@ -20457,19 +20471,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     /* TEXT */
     ), order.is_paied == 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_128, "(已付款)")) : order.is_paied == 3 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_129, "(付款失敗)")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_130, "(尚未付款)"))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_132, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.paytype[order.pay_type]), 1
     /* TEXT */
-    ), order.pay_type == '03' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_133, "匯款帳號資訊已寄至收件人Email信箱，再請查收Email喔，謝謝！")) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
-      key: 1,
+    ), order.pay_type == '03' && order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_133, _hoisted_137)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_138, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
       href: _ctx.repayUrl.replace('replace_it', order.order_number),
-      "class": "text-white rounded hover:bg-[#379e48] bg-[#44ad56] !mt-2 !p-2.5 !py-2"
+      "class": "text-white rounded hover:bg-[#379e48] bg-[#44ad56] !p-2.5 !py-2"
     }, "立即付款", 8
     /* PROPS */
-    , _hoisted_134)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self[order.reuse_self]), 1
+    , _hoisted_139)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self[order.reuse_self]), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：是 (使用個人二手衣製作) "), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_136, [_hoisted_137, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_shipping[order.reuse_self_delivery]), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：是 (使用個人二手衣製作) "), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_141, [_hoisted_142, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_shipping[order.reuse_self_delivery]), 1
     /* TEXT */
-    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_138, [_hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_picture[order.reuse_self_picture]), 1
+    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_143, [_hoisted_144, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_picture[order.reuse_self_picture]), 1
     /* TEXT */
-    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：否 (使用回收舊衣製作，顏色不指定) "), order.reuse_self == 1 && order.upload_image_url ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_140, [_hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：否 (使用回收舊衣製作，顏色不指定) "), order.reuse_self == 1 && order.upload_image_url ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_145, [_hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       style: {
         "width": "100%",
         "max-width": "320px"
@@ -20477,21 +20490,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       src: order.upload_image_url
     }, null, 8
     /* PROPS */
-    , _hoisted_142)])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_143, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.reuse_self_memo), 1
+    , _hoisted_147)])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.reuse_self_memo), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_144, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.name), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_149, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.name), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_145, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.phone), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_150, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.phone), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.email), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.email), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.address), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.address), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.shipping[order.deliver].title), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_153, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.shipping[order.deliver].title), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_149, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.invoice[order.receipt]), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_154, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.invoice[order.receipt]), 1
     /* TEXT */
-    ), order.receipt == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_150, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "發票抬頭：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.corpName), 1
+    ), order.receipt == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_155, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "發票抬頭：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.corpName), 1
     /* TEXT */
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "統一編號：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.taxIDnumber), 1
     /* TEXT */
@@ -20500,7 +20513,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     );
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), _hoisted_151])])]), _hoisted_152], 64
+  ))]), _hoisted_156])])]), _hoisted_157], 64
   /* STABLE_FRAGMENT */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]))]);
 }

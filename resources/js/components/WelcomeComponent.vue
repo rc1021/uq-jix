@@ -614,7 +614,7 @@
     </div>
 
     <!-- 常見問與答 -->
-    <div class="sec10 sec">
+    <div id="FAQ" class="sec10 sec">
       <div class="cons">
         <h3 class="hea">FAQ</h3>
         <div class="sectitle"><span>常見問與答</span></div>
@@ -1037,12 +1037,12 @@
                             </tr>
                             <tr>
                                 <th scope="row">付款方式</th>
-                                <td class="space-2">
+                                <td class="flex flex-col">
                                     <div>{{ orderConfig.paytype[order.pay_type] }}</div>
-                                    <div v-if="order.pay_type=='03'">匯款帳號資訊已寄至收件人Email信箱，再請查收Email喔，謝謝！</div>
-                                    <template v-if="order.is_paied!=2">
-                                        <a :href="repayUrl.replace('replace_it', order.order_number)" class="text-white rounded hover:bg-[#379e48] bg-[#44ad56] !mt-2 !p-2.5 !py-2">立即付款</a>
-                                    </template>
+                                    <div v-if="order.pay_type=='03' && order.is_paied!=2">匯款帳號資訊已寄至收件人Email信箱，信件有可能被歸入在垃圾郵件夾中，<br>再請查收Email喔，謝謝！</div>
+                                    <div v-if="order.is_paied!=2" class="my-2">
+                                        <a :href="repayUrl.replace('replace_it', order.order_number)" class="text-white rounded hover:bg-[#379e48] bg-[#44ad56] !p-2.5 !py-2">立即付款</a>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>

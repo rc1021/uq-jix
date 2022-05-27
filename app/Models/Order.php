@@ -69,6 +69,12 @@ class Order extends Model
      */
     public function getPaymentUrl()
     {
+        // 因為訂單編號不能重覆，所以這依據建立payment的次數變更值的不同
+        $order_no = $this->order_number;
+        $count = $this->payments->count();
+        if($count > 0)
+            $order_no .= '_' . str_pad($count+1, 2, '0', STR_PAD_LEFT);
+
         $params = [
             'WebNo' => config('paynow.WebNo'),
             'ECPlatform' => 'REHOW',
@@ -76,7 +82,7 @@ class Order extends Model
             'ReceiverID' => $this->phone,
             'ReceiverTel' => $this->phone,
             'ReceiverEmail' => $this->email,
-            'OrderNo' => $this->order_number,
+            'OrderNo' => $order_no,
             'TotalPrice' => $this->total
                           + $this->delivery_fee,
             'PayType' => data_get($this, 'pay_type', '01'),
