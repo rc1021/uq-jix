@@ -23,11 +23,13 @@
 - Email：{{ $order->email }}
 - 地址：{{ $order->address }}
 
+@component('mail::button', ['url' => $url, 'color' => 'success'])
+前往訂單
+@endcomponent
+
 提醒您！
-
-請務必至 《REHOW x JUST IN XX 舊衣新生》活動官網 中的 [查詢訂單]({{ $url }}) 確認完成付款。
-
-若付款完成後訂單狀態仍在待付款，則需請您連繫客服並提供轉帳明細資訊，以便客服人員協助確認。
+- 請務必至 《REHOW x JUST IN XX 舊衣新生》活動官網 中的 [查詢訂單]({{ $url }}) 確認完成付款。
+- 若付款完成後訂單狀態仍在待付款，則需請您連繫客服並提供轉帳明細資訊，以便客服人員協助確認。
 
 [防詐騙提醒]
 

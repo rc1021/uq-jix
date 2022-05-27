@@ -98,8 +98,13 @@ img {
 /* Header */
 
 .header {
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 570px;
+    margin: 0 auto;
     padding: 25px 0;
     text-align: center;
+    width: 570px;
 }
 
 .header a {
