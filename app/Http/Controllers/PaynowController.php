@@ -25,7 +25,8 @@ class PaynowController extends Controller
             try {
                 // 付款成功寄通知
                 $order->fresh();
-                Mail::to($order->email)->send(new \App\Mail\PaymentResponse($order));
+                if($order->is_paied == 2)
+                    Mail::to($order->email)->send(new \App\Mail\PaymentResponse($order));
             }
             catch(Exception $e) {}
             return redirect()->route('uq-jix.show', [
