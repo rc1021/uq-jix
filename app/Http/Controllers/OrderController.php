@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\OrderCreated;
+use Illuminate\Support\Facades\Validator;
 
 class OrderController extends Controller
 {
@@ -47,7 +48,7 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         $request->merge(['quantity_count' => array_sum(data_get($request->input(), 'quantity', []))]);
-        $validated = $request->validate([
+        Validator::make($request->all(), [
             'name' => 'bail|required',
             'phone' => 'bail|required',
             'email' => 'bail|required',
@@ -55,8 +56,22 @@ class OrderController extends Controller
             'corpName' => 'bail|required_if:receipt,1',
             'taxIDnumber' => 'bail|required_if:receipt,1',
             'quantity_count' => 'bail|min:1',
-            // 'file' => 'file|size:' . (1024 * 5),
-        ]);
+            'file' => 'file|size:' . (1024 * 5),
+        ], [
+            'file.size' => ':attribute 大小超過 :size KB',
+        ], [
+            'file' => '圖檔'
+        ])->validate();
+        // $validated = $request->validate([
+        //     'name' => 'bail|required',
+        //     'phone' => 'bail|required',
+        //     'email' => 'bail|required',
+        //     'address' => 'bail|required',
+        //     'corpName' => 'bail|required_if:receipt,1',
+        //     'taxIDnumber' => 'bail|required_if:receipt,1',
+        //     'quantity_count' => 'bail|min:1',
+        //     'file' => 'file|size:' . (1024 * 5),
+        // ]);
 
         // 圖檔儲存
         $filepath = '';

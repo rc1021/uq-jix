@@ -372,7 +372,7 @@
                     </div>
                     <div class="prepared_no">
                       <div>
-                        <label>毛小孩照片分享</label><br>
+                        <label>毛小孩照片分享 <span class="text-base">(圖片大小限制5MB)</span></label><br>
                         <input type="file" name="file" v-bind="file">
                       </div>
                       <div class="note3">
@@ -1187,8 +1187,20 @@
                         return ;
                     }
                 })
-                .catch(function (response) {
-                    alert('* 為必填欄位');
+                .catch(function (error) {
+                    if (error.response && error.response.data) {
+                        let message = error.response.data.message;
+                        if(error.response.data.errors) {
+                            message = '';
+                            for(var i in error.response.data.errors)
+                                message += error.response.data.errors[i] + "\n";
+                        }
+                        alert(message);
+                    }
+                    else
+                        alert(error.message);
+
+                    that.submited = false;
                 });
             }
         },

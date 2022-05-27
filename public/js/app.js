@@ -19429,8 +19429,22 @@ __webpack_require__.r(__webpack_exports__);
           window.location.href = response.data.payurl;
           return;
         }
-      })["catch"](function (response) {
-        alert('* 為必填欄位');
+      })["catch"](function (error) {
+        if (error.response && error.response.data) {
+          var message = error.response.data.message;
+
+          if (error.response.data.errors) {
+            message = '';
+
+            for (var i in error.response.data.errors) {
+              message += error.response.data.errors[i] + "\n";
+            }
+          }
+
+          alert(message);
+        } else alert(error.message);
+
+        that.submited = false;
       });
     }
   },
@@ -19683,7 +19697,9 @@ var _hoisted_62 = {
   "class": "prepared_no"
 };
 
-var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", null, "毛小孩照片分享", -1
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("毛小孩照片分享 "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "text-base"
+}, "(圖片大小限制5MB)")], -1
 /* HOISTED */
 );
 

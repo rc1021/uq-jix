@@ -11,11 +11,17 @@
 @endsection
 
 @push('scripts')
-
 @if ($message ?? false)
 <script>
     $(function () {
         alert('{{ $message }}');
+    });
+</script>
+@endif
+@if ($errors->any())
+<script>
+    $(function () {
+        alert('{{ $errors->first() }}');
     });
 </script>
 @endif
