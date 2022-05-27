@@ -1178,7 +1178,7 @@
                         if(that.pay_type == '03') {
                             that.my_orders = [response.data.order];
                             setTimeout(function () {
-                                alert('已成功建立訂單，請記住您的訂單編號('+response.data.order.order_number+')，按確認前往ATM付款');
+                                alert('已成功建立訂單，按確認前往ATM付款');
                                 window.location.href = response.data.payurl;
                             }, 500);
                             return ;
