@@ -56,22 +56,13 @@ class OrderController extends Controller
             'corpName' => 'bail|required_if:receipt,1',
             'taxIDnumber' => 'bail|required_if:receipt,1',
             'quantity_count' => 'bail|min:1',
-            'file' => 'file|size:' . (1024 * 5),
+            'file' => 'mimes:jpg,jpeg,gif,png|file|size:' . (1024 * 5),
         ], [
             'file.size' => ':attribute 大小超過 :size KB',
+            'file.mimes' => ':attribute 只能上傳 JPEG, 或 PNG',
         ], [
             'file' => '圖檔'
         ])->validate();
-        // $validated = $request->validate([
-        //     'name' => 'bail|required',
-        //     'phone' => 'bail|required',
-        //     'email' => 'bail|required',
-        //     'address' => 'bail|required',
-        //     'corpName' => 'bail|required_if:receipt,1',
-        //     'taxIDnumber' => 'bail|required_if:receipt,1',
-        //     'quantity_count' => 'bail|min:1',
-        //     'file' => 'file|size:' . (1024 * 5),
-        // ]);
 
         // 圖檔儲存
         $filepath = '';

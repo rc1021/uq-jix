@@ -372,8 +372,8 @@
                     </div>
                     <div class="prepared_no">
                       <div>
-                        <label>毛小孩照片分享 <span class="text-base">(圖片大小限制5MB)</span></label><br>
-                        <input type="file" name="file" v-bind="file">
+                        <label>毛小孩照片分享 <span class="text-base">(圖片大小限制5MB; 格式：JPEG、PNG)</span></label><br>
+                        <input type="file" name="file" v-bind="file" accept=".png,.jpeg,.jpg">
                       </div>
                       <div class="note3">
                         無須提供個人二手衣，REHOW 將隨機選用RE.UNIQLO 回收之二手T 製作訂購商品，讓廢棄二手衣循環再利用。
