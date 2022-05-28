@@ -12,6 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css', null, [require("tailwindcss")])
+    // .sass('resources/sass/app.scss', 'public/css', null, [require("tailwindcss")])
+    .copy('resources/js/main.js', 'public/js/main.js')
+    .copy('resources/css/main.css', 'public/css/main.css')
     .vue()
     .version();
