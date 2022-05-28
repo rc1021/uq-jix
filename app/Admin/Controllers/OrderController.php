@@ -29,6 +29,7 @@ class OrderController extends AdminController
     protected function grid()
     {
         $grid = new Grid(new Order());
+        $grid->model()->orderBy('created_at','desc');
 
         $grid->column('created_at', __('建立日期'))->display(fn($created_at) => date('Y-m-d H:i', $created_at))->sortable();
         $grid->column('order_number', __('訂單編號'))->expand(function ($model) {
