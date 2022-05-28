@@ -993,17 +993,17 @@
                     <div class="modal-content">
                         <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">您的訂單</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button @click="my_orders=null" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                         <template :key="index" v-for="(order, index) in my_orders.reverse()">
-                            <div v-if="my_orders.length > 1" class="text-xl border-4 border-dashed border-slate-200 text-slate-400 !my-1 !p-2">
-                                #{{index+1}}/{{my_orders.length}}
-                            </div>
                         <table class="table">
                             <thead>
                             <tr>
-                                <th scope="col">訂單編號</th>
+                                <th scope="col">訂單編號
+                            <span v-if="my_orders.length > 1" class="text-xl border-4 border-dashed border-slate-200 text-slate-400 !my-1 !p-2">
+                                #{{index+1}}/{{my_orders.length}}
+                            </span></th>
                                 <th scope="col">{{ order.order_number }}</th>
                             </tr>
                             </thead>
@@ -1041,7 +1041,7 @@
                                     <div>{{ orderConfig.paytype[order.pay_type] }}</div>
                                     <div v-if="order.pay_type=='03' && order.is_paied!=2">匯款帳號資訊已寄至收件人Email信箱，信件有可能被歸入在垃圾郵件夾中，<br>再請查收Email喔，謝謝！</div>
                                     <div v-if="order.is_paied!=2" class="my-2">
-                                        <a :href="repayUrl.replace('replace_it', order.order_number)" class="text-white rounded hover:bg-[#379e48] bg-[#44ad56] !p-2.5 !py-2">立即付款</a>
+                                        <a :href="repayUrl.replace('replace_it', order.order_number)" style="color: white; background-color: #379e48; padding: 8px 10px; text-decoration: none;" class="rounded">立即付款</a>
                                     </div>
                                 </td>
                             </tr>
@@ -1106,7 +1106,7 @@
                         </template>
                         </div>
                         <div class="modal-footer">
-                        <a href="/" class="btn bg-green-600 text-white">確認關閉</a>
+                        <button @click="my_orders=null" type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">確認關閉</button>
                         </div>
                     </div>
                 </div>
