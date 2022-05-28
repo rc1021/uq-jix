@@ -20296,7 +20296,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "text",
     id: "ps",
     name: "reuse_self_memo",
-    placeholder: "備註",
+    placeholder: "備註(字數限制50個中文字內)",
     "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
       return _ctx.reuse_self_memo = $event;
     })
@@ -20314,7 +20314,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "text",
     id: "ps",
     name: "reuse_self_memo",
-    placeholder: "備註",
+    placeholder: "備註(字數限制50個中文字內)",
     "onUpdate:modelValue": _cache[5] || (_cache[5] = function ($event) {
       return _ctx.reuse_self_memo = $event;
     })

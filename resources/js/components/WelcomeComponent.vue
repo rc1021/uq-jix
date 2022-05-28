@@ -364,7 +364,7 @@
                       </div>
                       <div>
                         <label for="ps">備註</label><br>
-                        <textarea maxlength="50" type="text" id="ps" name="reuse_self_memo" placeholder="備註" v-model="reuse_self_memo"></textarea>
+                        <textarea maxlength="50" type="text" id="ps" name="reuse_self_memo" placeholder="備註(字數限制50個中文字內)" v-model="reuse_self_memo"></textarea>
                       </div>
                       <div class="note4">
                         如有特殊設計需求歡迎備註(例如保留上衣口袋、指定保留特色圖案區塊等)，以版型不可改變為原則，實際製作由設計師判斷是否可以執行，恕無法保證執行。
@@ -381,7 +381,7 @@
                       </div>
                       <div>
                         <label for="ps">備註</label><br>
-                        <textarea maxlength="50" type="text" id="ps" name="reuse_self_memo" placeholder="備註" v-model="reuse_self_memo"></textarea>
+                        <textarea maxlength="50" type="text" id="ps" name="reuse_self_memo" placeholder="備註(字數限制50個中文字內)" v-model="reuse_self_memo"></textarea>
                       </div>
                       <div class="note4">
                         如有特殊設計需求歡迎備註(例如希望避免的顏色等)，以版型不可改變為原則，實際製作將由設計師判斷是否可以執行，恕無法保證執行。
