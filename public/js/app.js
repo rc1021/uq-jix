@@ -20292,6 +20292,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ))], 512
   /* NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, _ctx.reuse_self_picture]])]), _hoisted_58, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_59, _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
+    maxlength: "50",
     type: "text",
     id: "ps",
     name: "reuse_self_memo",
@@ -20309,6 +20310,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }), null, 16
   /* FULL_PROPS */
   )]), _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_66, _hoisted_67, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
+    maxlength: "50",
     type: "text",
     id: "ps",
     name: "reuse_self_memo",
