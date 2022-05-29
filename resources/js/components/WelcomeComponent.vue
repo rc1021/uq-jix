@@ -489,6 +489,7 @@
               <div class="spliter"></div>
               <div class="action">
                 <button :disabled="!validated" class="disabled:cursor-not-allowed space-x-2 flex items-center" type="submit">
+                    <i v-if="submited" class="fa fa-circle-o-notch fa-spin" style="margin-right: 0.5rem"></i>
                     <span v-if="total > 0">總金額 {{ orderConfig.price_prefix + total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }} </span>
                     <span>立即訂購付款</span>
                 </button>

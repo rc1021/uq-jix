@@ -19841,24 +19841,31 @@ var _hoisted_92 = {
 };
 var _hoisted_93 = ["disabled"];
 var _hoisted_94 = {
-  key: 0
+  key: 0,
+  "class": "fa fa-circle-o-notch fa-spin",
+  style: {
+    "margin-right": "0.5rem"
+  }
+};
+var _hoisted_95 = {
+  key: 1
 };
 
-var _hoisted_95 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "立即訂購付款", -1
+var _hoisted_96 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "立即訂購付款", -1
 /* HOISTED */
 );
 
-var _hoisted_96 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec9 sec\"><div class=\"cons\"><div class=\"sectitle\"><span>寵物衣尺寸表</span></div><img class=\"_1280\" src=\"/images/1280/size_img.png\" alt=\"寵物衣尺寸表\"><img class=\"_640\" src=\"/images/640/size_img.png\" alt=\"寵物衣尺寸表\"></div></div>", 1);
+var _hoisted_97 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec9 sec\"><div class=\"cons\"><div class=\"sectitle\"><span>寵物衣尺寸表</span></div><img class=\"_1280\" src=\"/images/1280/size_img.png\" alt=\"寵物衣尺寸表\"><img class=\"_640\" src=\"/images/640/size_img.png\" alt=\"寵物衣尺寸表\"></div></div>", 1);
 
-var _hoisted_97 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec3 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec1_title.png\" alt=\"REHOW\"><img class=\"_640\" src=\"/images/640/aboutus_sec1_title.png\" alt=\"REHOW\"></div></div><div class=\"aboutus_sub\"> 《REHOW》如禾永續文創<br class=\"_640_inline\">為專注於永續創造力的台灣新創品牌，<br class=\"_640_inline\">致力於推動廢棄材料的升級再製。 </div><div class=\"aboutus_sub2\"> 『【RE】只是廢棄物的循環，<br class=\"_640_inline\">【HOW】才是重新創造的核心價值。』 </div><div class=\"pa\"><p class=\"aboutus_des\"> 《REHOW》 如禾永續文創為專注於永續創造力的台灣新創品牌，致力推動廢棄材料的升級再製。<br> 從織品出發，REHOW用美感與設計探索各種永續的可能，不僅首創『#BarREHOW設計師體驗』提供廢料吧與專業縫紉設備的自助手作參與；2022年，REHOW再次推出原創的改造計畫『R+F5重新整理』，提供客製化的永續方案與創意產品規劃，將廢棄資源反向再造，爲循環生活提供新選擇！<br> 在推動循環經濟之外，REHOW更兼顧社會使命，與高林文創基金會合作推動社會關懷，REHOW製作團隊由高林文創基金會長期輔導培訓之二度就業婦女組成，透過資源整合支持婦女培力。 </p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec1_img.png\" alt=\"REHOW舊衣新生工坊\"><img class=\"_640\" src=\"/images/640/aboutus_sec1_img.png\" alt=\"REHOW舊衣新生工坊\"><div>REHOW舊衣新生工坊</div></div></div></div></div>", 1);
+var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec3 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec1_title.png\" alt=\"REHOW\"><img class=\"_640\" src=\"/images/640/aboutus_sec1_title.png\" alt=\"REHOW\"></div></div><div class=\"aboutus_sub\"> 《REHOW》如禾永續文創<br class=\"_640_inline\">為專注於永續創造力的台灣新創品牌，<br class=\"_640_inline\">致力於推動廢棄材料的升級再製。 </div><div class=\"aboutus_sub2\"> 『【RE】只是廢棄物的循環，<br class=\"_640_inline\">【HOW】才是重新創造的核心價值。』 </div><div class=\"pa\"><p class=\"aboutus_des\"> 《REHOW》 如禾永續文創為專注於永續創造力的台灣新創品牌，致力推動廢棄材料的升級再製。<br> 從織品出發，REHOW用美感與設計探索各種永續的可能，不僅首創『#BarREHOW設計師體驗』提供廢料吧與專業縫紉設備的自助手作參與；2022年，REHOW再次推出原創的改造計畫『R+F5重新整理』，提供客製化的永續方案與創意產品規劃，將廢棄資源反向再造，爲循環生活提供新選擇！<br> 在推動循環經濟之外，REHOW更兼顧社會使命，與高林文創基金會合作推動社會關懷，REHOW製作團隊由高林文創基金會長期輔導培訓之二度就業婦女組成，透過資源整合支持婦女培力。 </p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec1_img.png\" alt=\"REHOW舊衣新生工坊\"><img class=\"_640\" src=\"/images/640/aboutus_sec1_img.png\" alt=\"REHOW舊衣新生工坊\"><div>REHOW舊衣新生工坊</div></div></div></div></div>", 1);
 
-var _hoisted_98 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec4 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec2_title.png\" alt=\"JUST IN XX\"><img class=\"_640\" src=\"/images/640/aboutus_sec2_title.png\" alt=\"JUST IN XX\"></div></div><div class=\"aboutus_sub\"> 周裕穎設計師擅長為永續時尚提出新的解決方式，<br class=\"_640_inline\">升級再造重啟生命週期。 </div><div class=\"aboutus_sub2\"> CIRCULAR FASHION SUMMIT<br class=\"_640_inline\"> 循環時尚峰會首屆，<br class=\"_640_inline\">唯一入選之台灣永續時尚代表品牌！ </div><div class=\"pa\"><p class=\"aboutus_des\"> 周裕穎(Justin Chou)台灣第一位獲選進入紐約官方時裝週的設計師，獲Vogue ITALIA選為紐約時裝週 Best Of Talent，也是2021東京奧運中華代表團進場服裝設計師，被譽為文創跨界鬼才，為台灣首位與國立故宮博物院、國立歷史博物館聯名之服裝設計師！<br> 擅長透過設計將高級時裝與台灣藝術、工藝與文化完美結合，並致力於將永續精神融入創作。 </p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec2_img.png\" alt=\"JUST IN XX 設計師 周裕穎 JUSTIN\"><img class=\"_640\" src=\"/images/640/aboutus_sec2_img.png\" alt=\"JUST IN XX 設計師 周裕穎 JUSTIN\"><div>JUST IN XX 設計師 周裕穎 JUSTIN</div></div></div></div></div>", 1);
+var _hoisted_99 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec4 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec2_title.png\" alt=\"JUST IN XX\"><img class=\"_640\" src=\"/images/640/aboutus_sec2_title.png\" alt=\"JUST IN XX\"></div></div><div class=\"aboutus_sub\"> 周裕穎設計師擅長為永續時尚提出新的解決方式，<br class=\"_640_inline\">升級再造重啟生命週期。 </div><div class=\"aboutus_sub2\"> CIRCULAR FASHION SUMMIT<br class=\"_640_inline\"> 循環時尚峰會首屆，<br class=\"_640_inline\">唯一入選之台灣永續時尚代表品牌！ </div><div class=\"pa\"><p class=\"aboutus_des\"> 周裕穎(Justin Chou)台灣第一位獲選進入紐約官方時裝週的設計師，獲Vogue ITALIA選為紐約時裝週 Best Of Talent，也是2021東京奧運中華代表團進場服裝設計師，被譽為文創跨界鬼才，為台灣首位與國立故宮博物院、國立歷史博物館聯名之服裝設計師！<br> 擅長透過設計將高級時裝與台灣藝術、工藝與文化完美結合，並致力於將永續精神融入創作。 </p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec2_img.png\" alt=\"JUST IN XX 設計師 周裕穎 JUSTIN\"><img class=\"_640\" src=\"/images/640/aboutus_sec2_img.png\" alt=\"JUST IN XX 設計師 周裕穎 JUSTIN\"><div>JUST IN XX 設計師 周裕穎 JUSTIN</div></div></div></div></div>", 1);
 
-var _hoisted_99 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec5 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"></div><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title2.png\" alt=\"LifeWaer\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title2.png\" alt=\"LifeWaer\"></div></div><div class=\"aboutus_sub2\"> 使不再需要的二手衣循環重生，<br class=\"_640_inline\">實現回收、再利用與減碳減廢的未來! </div><div class=\"pa\"><p class=\"aboutus_des\"> 不再需要的衣物也能用來改善環境與社會嗎?<br> 自2014年以來台灣UNIQLO本著回收Recycle、再利用Reuse、減碳減廢Reduce的永續循環理念，攜手消費者、非營利組織與品牌夥伴，開創出二手衣物多元運用的管道，例如:舊衣料循環再製成新商品、作為弱勢團體緊急救難衣物、或與在地永續設計師合作展現二手衣再製重生之美，無法再利用的廢料最終還可製成環保燃料棒，使二手衣物以不同型式循環重生，朝零廢棄方向前進。<br> 加入服裝回收行動，讓我們一起使服裝重生，朝永續未來邁進。<a href=\"https://www.uniqlo.com/tw/collection/sustainability/l3/re-uniqlo/index.html\" target=\"_blank\">詳情請見官網</a></p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"></div></div><div class=\"more_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"></div></div></div>", 1);
+var _hoisted_100 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sec5 sec aboutus\"><div class=\"cons\"><div class=\"aboutus_title\"><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title.png\" alt=\"RE.UNIQLO服裝回收再生行動\"></div><div><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_title2.png\" alt=\"LifeWaer\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_title2.png\" alt=\"LifeWaer\"></div></div><div class=\"aboutus_sub2\"> 使不再需要的二手衣循環重生，<br class=\"_640_inline\">實現回收、再利用與減碳減廢的未來! </div><div class=\"pa\"><p class=\"aboutus_des\"> 不再需要的衣物也能用來改善環境與社會嗎?<br> 自2014年以來台灣UNIQLO本著回收Recycle、再利用Reuse、減碳減廢Reduce的永續循環理念，攜手消費者、非營利組織與品牌夥伴，開創出二手衣物多元運用的管道，例如:舊衣料循環再製成新商品、作為弱勢團體緊急救難衣物、或與在地永續設計師合作展現二手衣再製重生之美，無法再利用的廢料最終還可製成環保燃料棒，使二手衣物以不同型式循環重生，朝零廢棄方向前進。<br> 加入服裝回收行動，讓我們一起使服裝重生，朝永續未來邁進。<a href=\"https://www.uniqlo.com/tw/collection/sustainability/l3/re-uniqlo/index.html\" target=\"_blank\">詳情請見官網</a></p><div class=\"aboutus_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img.png\" alt=\"RE.UNIQLO\"></div></div><div class=\"more_img\"><img class=\"_1280\" src=\"/images/1280/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"><img class=\"_640\" src=\"/images/640/aboutus_sec3_img2.png\" alt=\"RECYCLE #號召消費者回收衣物  #再製成燃料棒, REDUCE #物料再生  #縫補修復, REUSE #舊衣改造  #社會救助\"></div></div></div>", 1);
 
-var _hoisted_100 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"FAQ\" class=\"sec10 sec\"><div class=\"cons\"><h3 class=\"hea\">FAQ</h3><div class=\"sectitle\"><span>常見問與答</span></div><div class=\"allq\"><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問活動時間？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 期間限定活動，即日起至8月31日止，於活動官網線上訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問欲訂製寵物衣尺寸該如何挑選？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請參閱 <a class=\"gotosec9_1\">寵物衣尺寸表</a>，體重及尺寸建議僅供參考，請務必測量後再訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問訂購流程？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請顧客於活動官網訂購，下單付款完成後， REHOW 將以UNIQLO 回收二手衣進行改造製作， 製作工期約14個工作天， 待製作完成將發送email通知出貨並寄至指定地點。 我們亦歡迎顧客提供個人UNIQLO 舊衣進行改造， 如選擇以個人舊衣進行改造：請將指定的UNIQLO舊衣寄送至REHOW 大直工作室， 或攜帶該舊衣至REHOW 反覆生活實驗室 (松山文創園區內)。 製作工期從收到自備的二手衣日開始計算14個工作天。 請務必確認訂製的商品內容是否正確， 送單後即無法修改訂單上的客製化內容。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>可以做客製化的調整嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 此改造服務僅提供固定款式、版型及尺寸，恕不可調整。<br class=\"_1280\"> 改造商品所使用之配件輔料將由REHOW 提供，恕無法提供選擇<br class=\"_1280\"> 如自備欲改造之衣物布面較小，將使用相近材料補齊，不再另行告知。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>想訂製自備舊衣改造的話需要提供什麼樣的衣服？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 風格抱枕與寵物帽T請提供至少1 件UNIQLO 圓領T。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>多久可以收到我訂製的商品？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 製作工期約14個工作天不包含訂購當天與國定假日。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>REHOW是否提供統一發票？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 發票由REHOW開立，發票將統一於交貨時隨貨附上，如需開立三聯式發票請詳填發票資訊。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務可以改造其他非UNIQLO的舊衣嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不行，此舊衣改造服務僅接受UNIQLO指定舊衣之改造。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>我提供的舊衣有剩餘布料未用於改造成品中，REHOW會返還剩餘布料給我嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不會，REHOW改造完成後，若顧客提供的UNIQLO舊衣有剩餘布料未用於改造成品中，視為顧客同意將該剩餘布料無償贈予REHOW進行其餘使用。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問舊衣會清洗嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請自行確認自備衣物狀態，現場受理之舊衣及改造完成品僅做簡單織品除菌，回收衣物將不另做清潔處理。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務是UNIQLO提供的嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不是，此改造服務委託關係僅存在於顧客與REHOW之間，與UNIQLO無涉，改造後成品品質與UNIQLO無關。若顧客對改造服務有任何問題，請直接聯繫REHOW窗口。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>如訂單有問題要如何聯繫？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 如有相關問題請詳參<a href=\"https://rehow.org/uq-jix\" target=\"_blank\">活動官網</a>、<a href=\"https://www.facebook.com/REHOW.TW/\" target=\"_blank\">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br> 臉書專頁回覆時間：周一至周五 10:00-18:00<br> 電話客服受理時間：周一至周六 (周二公休) 10:00-18:00 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>回收舊衣改造與自備舊衣改造的差別是什麼？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>回收舊衣改造：</b><br> 無須提供個人二手衣，REHOW 將隨機選用RE.UNIQLO 回收之二手圓領T 製作訂購商品，讓廢棄二手衣循環再利用，顏色圖樣隨機，恕無法指定樣式。<br> *可提供退換。</li><li><b>自備舊衣改造：</b><br> 我們鼓勵大家使用自己的UNIQLO 圓領T，讓用不到的二手衣重獲新生！製作成寵物衣還能讓寵物擁有習慣的主人味道~<br> *此為客製服務不提供退換</li></ul></div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>收到成品後如有問題是否可提供修改服務？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 可提供部分修改服務，需酌收修改費用，來回運費由消費者自行負擔。<br> 若欲修改，請先與客服聯繫確認修改需求細項與費用。<br><br><b>修改費用表參考：</b><ul><li>下擺 NT$100</li><li>袖子 NT$150</li><li>胸圍 NT$250</li><li>特殊修改 NT$350</li></ul> *已修改過的商品恕無法提供退換服務。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>是否可以退換貨？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>訂購回收舊衣改造</b><br> 您享有到貨七日內退換貨保證，請依照以下程序辦理：<br><ol><li>辦理退換貨前，請先電話或e-mail聯絡本公司客服人員，並請提供您的訂單號碼、退換貨原因及您的聯絡方式。<br>若您未事先告知就將商品寄回，本公司恕無法為您作退換貨或再寄回處理。</li><li>請務必於七日內憑發票辦理退換貨，未出示或超過期限者，恕無法接受退換貨，換貨日期是以收到發票及貨品當日（以郵戳或收執聯為憑)。</li><li>辦理退換貨之商品，如為商品本身瑕疵，我們會進行瑕疵鑑定，並儘速為您換新。若經檢驗後並無瑕疵，消費者則須自付所發生之費用。</li><li>因使用不當造成商品損壞者，恕無法接受退換貨。</li><li>辦理退換貨之商品，必需未開封或未使用過，即全新完整包裝狀態含所有隨貨附件、組件、贈品(如抱枕芯)等，否則恕無法接受退換貨。</li><li>確認退換商品後，本公司客服人員將依您的付款方式及訂購商品類別，10個工作天內為您提供最合適的退款方式。</li></ol> 特別說明:因商品本身瑕疵退換貨者，運費由本公司負擔(需使用郵局寄回)，一般退換貨者，消費者需自行吸收商品往返運費。 退回商品恕不接受貨到付運費(如消費者未經本公司事先同意，自行指定退回商品貨到付運費，本公司恕不受理收貨)。<br><br></li><li><b>訂購自備舊衣改造</b><br> 此改造服務為依顧客要求所為之客製化給付，在顧客下單後，REHOW開始依照訂單規格製作，恕無法取消訂單，亦無法退換貨。<br> (購買前請先考慮再送出訂單，不便之處，敬請見諒！)</li></ul></div></div></div></div></div></div>", 1);
+var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"FAQ\" class=\"sec10 sec\"><div class=\"cons\"><h3 class=\"hea\">FAQ</h3><div class=\"sectitle\"><span>常見問與答</span></div><div class=\"allq\"><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問活動時間？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 期間限定活動，即日起至8月31日止，於活動官網線上訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問欲訂製寵物衣尺寸該如何挑選？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請參閱 <a class=\"gotosec9_1\">寵物衣尺寸表</a>，體重及尺寸建議僅供參考，請務必測量後再訂購。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問訂購流程？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請顧客於活動官網訂購，下單付款完成後， REHOW 將以UNIQLO 回收二手衣進行改造製作， 製作工期約14個工作天， 待製作完成將發送email通知出貨並寄至指定地點。 我們亦歡迎顧客提供個人UNIQLO 舊衣進行改造， 如選擇以個人舊衣進行改造：請將指定的UNIQLO舊衣寄送至REHOW 大直工作室， 或攜帶該舊衣至REHOW 反覆生活實驗室 (松山文創園區內)。 製作工期從收到自備的二手衣日開始計算14個工作天。 請務必確認訂製的商品內容是否正確， 送單後即無法修改訂單上的客製化內容。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>可以做客製化的調整嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 此改造服務僅提供固定款式、版型及尺寸，恕不可調整。<br class=\"_1280\"> 改造商品所使用之配件輔料將由REHOW 提供，恕無法提供選擇<br class=\"_1280\"> 如自備欲改造之衣物布面較小，將使用相近材料補齊，不再另行告知。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>想訂製自備舊衣改造的話需要提供什麼樣的衣服？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 風格抱枕與寵物帽T請提供至少1 件UNIQLO 圓領T。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>多久可以收到我訂製的商品？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 製作工期約14個工作天不包含訂購當天與國定假日。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>REHOW是否提供統一發票？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 發票由REHOW開立，發票將統一於交貨時隨貨附上，如需開立三聯式發票請詳填發票資訊。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務可以改造其他非UNIQLO的舊衣嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不行，此舊衣改造服務僅接受UNIQLO指定舊衣之改造。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>我提供的舊衣有剩餘布料未用於改造成品中，REHOW會返還剩餘布料給我嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不會，REHOW改造完成後，若顧客提供的UNIQLO舊衣有剩餘布料未用於改造成品中，視為顧客同意將該剩餘布料無償贈予REHOW進行其餘使用。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問舊衣會清洗嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 請自行確認自備衣物狀態，現場受理之舊衣及改造完成品僅做簡單織品除菌，回收衣物將不另做清潔處理。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>請問這個改造服務是UNIQLO提供的嗎？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 不是，此改造服務委託關係僅存在於顧客與REHOW之間，與UNIQLO無涉，改造後成品品質與UNIQLO無關。若顧客對改造服務有任何問題，請直接聯繫REHOW窗口。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>如訂單有問題要如何聯繫？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 如有相關問題請詳參<a href=\"https://rehow.org/uq-jix\" target=\"_blank\">活動官網</a>、<a href=\"https://www.facebook.com/REHOW.TW/\" target=\"_blank\">REHOW 臉書專頁</a> @REHOW.TW 私訊留言，或電洽客服0909-590963<br> 臉書專頁回覆時間：周一至周五 10:00-18:00<br> 電話客服受理時間：周一至周六 (周二公休) 10:00-18:00 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>回收舊衣改造與自備舊衣改造的差別是什麼？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>回收舊衣改造：</b><br> 無須提供個人二手衣，REHOW 將隨機選用RE.UNIQLO 回收之二手圓領T 製作訂購商品，讓廢棄二手衣循環再利用，顏色圖樣隨機，恕無法指定樣式。<br> *可提供退換。</li><li><b>自備舊衣改造：</b><br> 我們鼓勵大家使用自己的UNIQLO 圓領T，讓用不到的二手衣重獲新生！製作成寵物衣還能讓寵物擁有習慣的主人味道~<br> *此為客製服務不提供退換</li></ul></div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>收到成品後如有問題是否可提供修改服務？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div> 可提供部分修改服務，需酌收修改費用，來回運費由消費者自行負擔。<br> 若欲修改，請先與客服聯繫確認修改需求細項與費用。<br><br><b>修改費用表參考：</b><ul><li>下擺 NT$100</li><li>袖子 NT$150</li><li>胸圍 NT$250</li><li>特殊修改 NT$350</li></ul> *已修改過的商品恕無法提供退換服務。 </div></div></div><div class=\"qa\"><div class=\"Question\"><div><img class=\"_1280\" src=\"/images/1280/faq_q.png\" alt=\"Question\"><img class=\"_640\" src=\"/images/640/faq_q.png\" alt=\"Question\"></div><div>是否可以退換貨？</div></div><div class=\"Answer\"><div><img class=\"_1280\" src=\"/images/1280/faq_a.png\" alt=\"Answer\"><img class=\"_640\" src=\"/images/640/faq_a.png\" alt=\"Answer\"></div><div><ul><li><b>訂購回收舊衣改造</b><br> 您享有到貨七日內退換貨保證，請依照以下程序辦理：<br><ol><li>辦理退換貨前，請先電話或e-mail聯絡本公司客服人員，並請提供您的訂單號碼、退換貨原因及您的聯絡方式。<br>若您未事先告知就將商品寄回，本公司恕無法為您作退換貨或再寄回處理。</li><li>請務必於七日內憑發票辦理退換貨，未出示或超過期限者，恕無法接受退換貨，換貨日期是以收到發票及貨品當日（以郵戳或收執聯為憑)。</li><li>辦理退換貨之商品，如為商品本身瑕疵，我們會進行瑕疵鑑定，並儘速為您換新。若經檢驗後並無瑕疵，消費者則須自付所發生之費用。</li><li>因使用不當造成商品損壞者，恕無法接受退換貨。</li><li>辦理退換貨之商品，必需未開封或未使用過，即全新完整包裝狀態含所有隨貨附件、組件、贈品(如抱枕芯)等，否則恕無法接受退換貨。</li><li>確認退換商品後，本公司客服人員將依您的付款方式及訂購商品類別，10個工作天內為您提供最合適的退款方式。</li></ol> 特別說明:因商品本身瑕疵退換貨者，運費由本公司負擔(需使用郵局寄回)，一般退換貨者，消費者需自行吸收商品往返運費。 退回商品恕不接受貨到付運費(如消費者未經本公司事先同意，自行指定退回商品貨到付運費，本公司恕不受理收貨)。<br><br></li><li><b>訂購自備舊衣改造</b><br> 此改造服務為依顧客要求所為之客製化給付，在顧客下單後，REHOW開始依照訂單規格製作，恕無法取消訂單，亦無法退換貨。<br> (購買前請先考慮再送出訂單，不便之處，敬請見諒！)</li></ul></div></div></div></div></div></div>", 1);
 
-var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+var _hoisted_102 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   "class": "float_banner",
   href: ""
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "立即線上訂購"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -19873,22 +19880,22 @@ var _hoisted_101 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_102 = {
+var _hoisted_103 = {
   "class": "modal fade",
   id: "checkstatus",
   tabindex: "-1",
   "aria-labelledby": "exampleModalLabel",
   "aria-hidden": "true"
 };
-var _hoisted_103 = {
+var _hoisted_104 = {
   "class": "modal-dialog modal-dialog-centered"
 };
-var _hoisted_104 = {
+var _hoisted_105 = {
   "class": "modal-content"
 };
-var _hoisted_105 = ["action"];
+var _hoisted_106 = ["action"];
 
-var _hoisted_106 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_107 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
   "class": "modal-title",
@@ -19902,7 +19909,7 @@ var _hoisted_106 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_107 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-body"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "number"
@@ -19915,7 +19922,7 @@ var _hoisted_107 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_109 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-footer"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   type: "submit",
@@ -19924,8 +19931,8 @@ var _hoisted_108 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElemen
 /* HOISTED */
 );
 
-var _hoisted_109 = [_hoisted_106, _hoisted_107, _hoisted_108];
-var _hoisted_110 = {
+var _hoisted_110 = [_hoisted_107, _hoisted_108, _hoisted_109];
+var _hoisted_111 = {
   "class": "modal fade show",
   id: "checkstatus2",
   tabindex: "-1",
@@ -19936,192 +19943,192 @@ var _hoisted_110 = {
     "display": "block"
   }
 };
-var _hoisted_111 = {
+var _hoisted_112 = {
   "class": "modal-dialog modal-dialog-centered modal-lg"
 };
-var _hoisted_112 = {
+var _hoisted_113 = {
   "class": "modal-content"
 };
-var _hoisted_113 = {
+var _hoisted_114 = {
   "class": "modal-header"
 };
 
-var _hoisted_114 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+var _hoisted_115 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
   "class": "modal-title",
   id: "exampleModalLabel"
 }, "您的訂單", -1
 /* HOISTED */
 );
 
-var _hoisted_115 = {
+var _hoisted_116 = {
   "class": "modal-body"
 };
-var _hoisted_116 = {
+var _hoisted_117 = {
   scope: "col"
 };
 
-var _hoisted_117 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("訂單編號 ");
+var _hoisted_118 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("訂單編號 ");
 
-var _hoisted_118 = {
+var _hoisted_119 = {
   key: 0,
   "class": "text-xl border-4 border-dashed border-slate-200 text-slate-400 !my-1 !p-2"
 };
-var _hoisted_119 = {
+var _hoisted_120 = {
   scope: "col"
 };
 
-var _hoisted_120 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_121 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "訂購品項數量", -1
 /* HOISTED */
 );
 
-var _hoisted_121 = {
+var _hoisted_122 = {
   "class": "divide-x"
 };
 
-var _hoisted_122 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "x", -1
+var _hoisted_123 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "x", -1
 /* HOISTED */
 );
 
-var _hoisted_123 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_124 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "總金額", -1
 /* HOISTED */
 );
 
-var _hoisted_124 = {
+var _hoisted_125 = {
   "class": "space-x-4"
 };
-var _hoisted_125 = {
+var _hoisted_126 = {
   key: 0,
   "class": "text-green-600"
 };
-var _hoisted_126 = {
+var _hoisted_127 = {
   key: 1,
   "class": "text-rose-400"
 };
-var _hoisted_127 = {
+var _hoisted_128 = {
   key: 2,
   "class": "text-slate-600"
 };
 
-var _hoisted_128 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_129 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "付款方式", -1
 /* HOISTED */
 );
 
-var _hoisted_129 = {
+var _hoisted_130 = {
   "class": "flex flex-col"
 };
-var _hoisted_130 = {
+var _hoisted_131 = {
   key: 0
 };
 
-var _hoisted_131 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("匯款帳號資訊已寄至收件人Email信箱，信件有可能被歸入在垃圾郵件夾中，");
+var _hoisted_132 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("匯款帳號資訊已寄至收件人Email信箱，信件有可能被歸入在垃圾郵件夾中，");
 
-var _hoisted_132 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
+var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1
 /* HOISTED */
 );
 
-var _hoisted_133 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("再請查收Email喔，謝謝！");
+var _hoisted_134 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("再請查收Email喔，謝謝！");
 
-var _hoisted_134 = [_hoisted_131, _hoisted_132, _hoisted_133];
-var _hoisted_135 = {
+var _hoisted_135 = [_hoisted_132, _hoisted_133, _hoisted_134];
+var _hoisted_136 = {
   key: 1,
   "class": "my-2"
 };
-var _hoisted_136 = ["href"];
+var _hoisted_137 = ["href"];
 
-var _hoisted_137 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_138 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "是否提供自備舊衣改造", -1
 /* HOISTED */
 );
 
-var _hoisted_138 = {
+var _hoisted_139 = {
   key: 0
 };
 
-var _hoisted_139 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_140 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "自備舊衣寄送方式", -1
 /* HOISTED */
 );
 
-var _hoisted_140 = {
+var _hoisted_141 = {
   key: 1
 };
 
-var _hoisted_141 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_142 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "圖案保留", -1
 /* HOISTED */
 );
 
-var _hoisted_142 = {
+var _hoisted_143 = {
   key: 2
 };
 
-var _hoisted_143 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_144 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "毛小孩照片分享", -1
 /* HOISTED */
 );
 
-var _hoisted_144 = ["src"];
+var _hoisted_145 = ["src"];
 
-var _hoisted_145 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_146 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "備註", -1
 /* HOISTED */
 );
 
-var _hoisted_146 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_147 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人姓名", -1
 /* HOISTED */
 );
 
-var _hoisted_147 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人手機號碼", -1
 /* HOISTED */
 );
 
-var _hoisted_148 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_149 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件人Email", -1
 /* HOISTED */
 );
 
-var _hoisted_149 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "收件地址", -1
 /* HOISTED */
 );
 
-var _hoisted_150 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_151 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "商品配送方式", -1
 /* HOISTED */
 );
 
-var _hoisted_151 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+var _hoisted_152 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   scope: "row"
 }, "發票開立", -1
 /* HOISTED */
 );
 
-var _hoisted_152 = {
+var _hoisted_153 = {
   key: 0
 };
-var _hoisted_153 = {
+var _hoisted_154 = {
   "class": "modal-footer"
 };
 
-var _hoisted_154 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_155 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "modal-backdrop fade show"
 }, null, -1
 /* HOISTED */
@@ -20406,24 +20413,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     disabled: !_ctx.validated,
     "class": "disabled:cursor-not-allowed space-x-2 flex items-center",
     type: "submit"
-  }, [_ctx.total > 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_94, "總金額 " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.price_prefix + _ctx.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")), 1
+  }, [_ctx.submited ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("i", _hoisted_94)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.total > 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_95, "總金額 " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.price_prefix + _ctx.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")), 1
   /* TEXT */
-  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_95], 8
+  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_96], 8
   /* PROPS */
   , _hoisted_93)])], 40
   /* PROPS, HYDRATE_EVENTS */
-  , _hoisted_15)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 寵物衣尺寸表 "), _hoisted_96, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 REHOW "), _hoisted_97, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 JUST IN XX "), _hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 RE.UNIQLO服裝回收再生行動 "), _hoisted_99, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 常見問與答 "), _hoisted_100]), _hoisted_101]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" content "), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Teleport, {
+  , _hoisted_15)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 寵物衣尺寸表 "), _hoisted_97, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 REHOW "), _hoisted_98, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 JUST IN XX "), _hoisted_99, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 關於我們 RE.UNIQLO服裝回收再生行動 "), _hoisted_100, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 常見問與答 "), _hoisted_101]), _hoisted_102]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" content "), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Teleport, {
     to: "body"
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_104, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_103, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_104, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_105, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     action: _ctx.showUrl,
     onSubmit: _cache[17] || (_cache[17] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return _ctx.FindOrder && _ctx.FindOrder.apply(_ctx, arguments);
     }, ["prevent"]))
-  }, _hoisted_109, 40
+  }, _hoisted_110, 40
   /* PROPS, HYDRATE_EVENTS */
-  , _hoisted_105)])])]), _ctx.my_orders && _ctx.my_orders.length > 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+  , _hoisted_106)])])]), _ctx.my_orders && _ctx.my_orders.length > 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     key: 0
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_110, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_113, [_hoisted_114, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_111, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_113, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_114, [_hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[18] || (_cache[18] = function ($event) {
       return _ctx.my_orders = null;
     }),
@@ -20431,15 +20438,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "btn-close",
     "data-bs-dismiss": "modal",
     "aria-label": "Close"
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_115, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.my_orders.reverse(), function (order, index) {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_116, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.my_orders.reverse(), function (order, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("table", {
       key: index,
       "class": "table"
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", _hoisted_116, [_hoisted_117, _ctx.my_orders.length > 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_118, " #" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(index + 1) + "/" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.my_orders.length), 1
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", _hoisted_117, [_hoisted_118, _ctx.my_orders.length > 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_119, " #" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(index + 1) + "/" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.my_orders.length), 1
     /* TEXT */
-    )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", _hoisted_119, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.order_number), 1
+    )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", _hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.order_number), 1
     /* TEXT */
-    )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_121, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(order.items, function (item, index) {
+    )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_122, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(order.items, function (item, index) {
       return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
         key: index,
         "class": "space-x-1"
@@ -20449,16 +20456,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* TEXT */
       ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.size), 1
       /* TEXT */
-      ), _hoisted_122, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.quantity), 1
+      ), _hoisted_123, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.quantity), 1
       /* TEXT */
       )]);
     }), 128
     /* KEYED_FRAGMENT */
-    ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_123, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_124, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.price_prefix) + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.total + order.delivery_fee), 1
+    ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_124, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_125, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.price_prefix) + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.total + order.delivery_fee), 1
     /* TEXT */
-    ), order.is_paied == 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_125, "(已付款)")) : order.is_paied == 3 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_126, "(付款失敗)")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_127, "(尚未付款)"))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_128, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_129, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.paytype[order.pay_type]), 1
+    ), order.is_paied == 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_126, "(已付款)")) : order.is_paied == 3 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_127, "(付款失敗)")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_128, "(尚未付款)"))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_129, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_130, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.paytype[order.pay_type]), 1
     /* TEXT */
-    ), order.pay_type == '03' && order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_130, _hoisted_134)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_135, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    ), order.pay_type == '03' && order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_131, _hoisted_135)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.is_paied != 2 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_136, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
       href: _ctx.repayUrl.replace('replace_it', order.order_number),
       style: {
         "color": "white",
@@ -20469,13 +20476,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "class": "rounded"
     }, "立即付款", 8
     /* PROPS */
-    , _hoisted_136)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_137, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self[order.reuse_self]), 1
+    , _hoisted_137)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_138, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self[order.reuse_self]), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：是 (使用個人二手衣製作) "), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_138, [_hoisted_139, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_shipping[order.reuse_self_delivery]), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：是 (使用個人二手衣製作) "), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_139, [_hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_shipping[order.reuse_self_delivery]), 1
     /* TEXT */
-    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_140, [_hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_picture[order.reuse_self_picture]), 1
+    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), order.reuse_self == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_141, [_hoisted_142, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.reuse_self_picture[order.reuse_self_picture]), 1
     /* TEXT */
-    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：否 (使用回收舊衣製作，顏色不指定) "), order.reuse_self == 1 && order.upload_image_url ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_142, [_hoisted_143, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 如果是選：否 (使用回收舊衣製作，顏色不指定) "), order.reuse_self == 1 && order.upload_image_url ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", _hoisted_143, [_hoisted_144, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       style: {
         "width": "100%",
         "max-width": "320px"
@@ -20483,28 +20490,28 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       src: order.upload_image_url
     }, null, 8
     /* PROPS */
-    , _hoisted_144)])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_145, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.reuse_self_memo), 1
+    , _hoisted_145)])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.reuse_self_memo), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.name), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.name), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_147, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.phone), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.phone), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.email), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_149, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.email), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_149, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.address), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_150, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.address), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_150, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.shipping[order.deliver].title), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.shipping[order.deliver].title), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.invoice[order.receipt]), 1
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [_hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.orderConfig.invoice[order.receipt]), 1
     /* TEXT */
-    ), order.receipt == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_152, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "發票抬頭：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.corpName), 1
+    ), order.receipt == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_153, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "發票抬頭：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.corpName), 1
     /* TEXT */
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, "統一編號：" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(order.taxIDnumber), 1
     /* TEXT */
     )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])])])]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_153, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_154, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[19] || (_cache[19] = function ($event) {
       return _ctx.my_orders = null;
     }),
@@ -20512,7 +20519,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "btn",
     "data-bs-dismiss": "modal",
     "aria-label": "Close"
-  }, "確認關閉")])])])]), _hoisted_154], 64
+  }, "確認關閉")])])])]), _hoisted_155], 64
   /* STABLE_FRAGMENT */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]))]);
 }
