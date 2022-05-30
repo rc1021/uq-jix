@@ -2,6 +2,7 @@
 
 namespace App\Admin\Controllers;
 
+use App\Admin\Extensions\OrderExporter;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -142,6 +143,7 @@ EOF;
 
         $grid->filter(function($filter){
             $filter->disableIdFilter();
+            $filter->between('created_at', __('建立日期'))->datetime();
             $filter->like('order_number', __('訂單編號'));
             $filter->like('name', __('收件人姓名'));
             $filter->like('phone', __('手機號碼'));
@@ -153,9 +155,11 @@ EOF;
                 3    => '付款失敗',
             ]);
         });
+
+        $grid->exporter(new OrderExporter);
         $grid->disableCreateButton();
-        $grid->disableExport();
-        $grid->disableRowSelector();
+        // $grid->disableExport();
+        // $grid->disableRowSelector();
         $grid->disableActions();
 
         return $grid;
