@@ -10,11 +10,11 @@
     <!-- theNavibar -->
     <div class="theNavibar" data-status="off">
       <ul>
-        <li><a class="g2" href="">合作緣起</a></li>
         <li><a class="g6" href="">品項介紹</a></li>
         <li><a class="g7" href="">訂購流程</a></li>
         <li><a class="g8" href="">手刀訂購去</a></li>
         <li><a class="g9" href="">寵物衣尺寸表</a></li>
+        <li><a class="g2" href="">合作緣起</a></li>
         <li><a class="g3" href="">關於我們</a></li>
         <li><a class="g10" href="">FAQ常見問與答</a></li>
         <li><a class="g11" href="" data-bs-toggle="modal" data-bs-target="#checkstatus">查詢訂單</a></li>
@@ -39,17 +39,20 @@
         </div> -->
 
         <div class="cons">
-          <h3 class="hea"><span>《舊衣新生工坊快閃活動》<br class="_640_inline">第二波！</span></h3>
+          <!-- <h3 class="hea"><span>《舊衣新生工坊快閃活動》<br class="_640_inline">第二波！</span></h3> -->
 
           <div class="pa">
             <div>
               <p>
-                期間限定<br class="_640_inline">線上訂購服務開跑！
+                好評延續！<br class="_640_inline">舊衣新生工坊<br class="_640_inline">線上訂購服務啟動囉 !
               </p>
             </div>
             <div>
               <p>
-              即日起至 8/31提供網路訂購，<br class="_1280_inline">宅家也能一同響應永續共好的改造行動唷！
+              即日起至8/31開放線上訂購，<br class="_1280_inline">
+              宅家也可響應低碳共好的UNIQLO二手T恤改造行動喔！<br class="_1280_inline">
+              兩大品項風格抱枕與寵物帽T供選購，<br class="_1280_inline">
+              均一價NTD790，送禮自用兩相宜。
               </p>
             </div>
           </div>
@@ -63,44 +66,6 @@
       </div>
     </div>
 
-    <!-- 關於我們 合作緣起 -->
-    <div class="sec2 sec">
-
-      <div class="cons">
-        <div class="aboutus_logo1">
-          <img class="_1280_inline" src="/images/1280/aboutus_logo1.png" alt="REHOW × JUST IN XX RE.UNIQLO">
-          <img class="_640" src="/images/640/aboutus_logo1.png" alt="REHOW × JUST IN XX RE.UNIQLO">
-        </div>
-        <div class="sectitle"><span>合作緣起</span></div>
-        <div class="pa">
-          <p>
-            源自RE.UNIQLO持續開創二手衣回收再生運用的核心理念，<br class="_1280_inline">
-            結合永續設計師周裕穎的精湛設計與REHOW如禾永續文創的精心製作，<br class="_1280_inline">
-            延續二手衣的生命週期，使家中不再需要的UNIQLO二手衣有機會重獲新生成為寵物衣或風格家飾。<br>
-            透過JUST IN XX周裕穎設計師獨家設計，<br class="_1280_inline">
-            與REHOW及高林文創基金會長期輔導培訓之二度就業人士精心製作，<br class="_1280_inline">
-            一同實現環保減碳與社會扶助良善循環。<br>
-            即日起至8月31日止，<br class="_1280_inline">
-            《REHOW × JUST IN XX 舊衣新生工坊》啟動網路訂購服務，<br class="_1280_inline">
-            讓大家宅家也能響應永續共好的行動，<br class="_1280_inline">
-            攜手與您一同使服裝重生讓愛循環！
-          </p>
-          <p>
-            <span>特此感謝</span><br>
-            《高林文創基金會》關注永續時尚與婦女培力，長期與REHOW合作，<br class="_1280_inline">
-            推薦基金會培訓之二度就業婦女組成REHOW工坊的製作團隊，並提供專業縫紉設備。<br>
-            《毛小孩幸福聯盟協會》於設計階段提供大型犬特性與一般犬貓的飼主的日常需求，<br class="_1280_inline">
-            最終設計師整合了相關建議，創造出兼顧功能與風格的寵物衣，<br class="_1280_inline">
-            協會的大浣熊也擔綱Model一角演繹寵物時尚。
-          </p>
-        </div>
-        <div class="aboutus_logo1">
-          <img class="_1280" src="/images/1280/aboutus_logo2.png" alt="高林文創基金會 毛小孩幸福聯盟協會">
-          <img class="_640" src="/images/640/aboutus_logo2.png" alt="高林文創基金會 毛小孩幸福聯盟協會">
-        </div>
-      </div>
-
-    </div>
 
     <!-- 品項介紹 -->
     <div class="sec6 sec">
@@ -219,7 +184,7 @@
             </div>
             <div class="des">
               <div>寄送提交舊衣</div>
-              <p>(選擇隨機改造可跳過此步驟)<br>將欲改造的舊衣<br>以寄送或親送至REHOW。</p>
+              <p><span style="color: #e80019;">選擇隨機改造可跳過此步驟</span><br>將欲改造的舊衣<br>以寄送或親送至REHOW。</p>
             </div>
           </div>
           <div class="stepL">
@@ -278,17 +243,20 @@
                         </div>
                         <div>
                             <label class="_640"><small>尺寸</small></label>
-                            <select v-if="orderConfig.products[item.product_id].size_select" name="size[]" v-model="item.size">
-                                <option selected value="XS">XS</option>
-                                <option value="S">S</option>
-                                <option value="M">M</option>
-                                <option value="L">L</option>
-                                <option value="XL">XL</option>
-                                <option value="2XL">2XL</option>
-                                <option value="3XL">3XL</option>
-                                <option value="4XL">4XL</option>
-                                <option value="5XL">5XL</option>
-                            </select>
+                            <template v-if="orderConfig.products[item.product_id].size_select">
+                                <select name="size[]" v-model="item.size">
+                                    <option selected value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="2XL">2XL</option>
+                                    <option value="3XL">3XL</option>
+                                    <option value="4XL">4XL</option>
+                                    <option value="5XL">5XL</option>
+                                </select>
+                                <a class="gosize" href="#" style="font-size: 16px;line-height: 1.5; color: #e80019;">尺寸參照表</a>
+                            </template>
                             <template v-else>
                                 <div class="i_name">單一尺寸</div>
                                 <input type="hidden" name="size[]" v-model="item.size" />
@@ -506,6 +474,45 @@
         <div class="sectitle"><span>寵物衣尺寸表</span></div>
         <img class="_1280" src="/images/1280/size_img.png" alt="寵物衣尺寸表">
         <img class="_640" src="/images/640/size_img.png" alt="寵物衣尺寸表">
+      </div>
+
+    </div>
+
+    <!-- 關於我們 合作緣起 -->
+    <div class="sec2 sec">
+
+      <div class="cons">
+        <div class="aboutus_logo1">
+          <img class="_1280_inline" src="/images/1280/aboutus_logo1.png" alt="REHOW × JUST IN XX RE.UNIQLO">
+          <img class="_640" src="/images/640/aboutus_logo1.png" alt="REHOW × JUST IN XX RE.UNIQLO">
+        </div>
+        <div class="sectitle"><span>合作緣起</span></div>
+        <div class="pa">
+          <p>
+            源自RE.UNIQLO持續開創二手衣回收再生運用的核心理念，<br class="_1280_inline">
+            結合永續設計師周裕穎的精湛設計與REHOW如禾永續文創的精心製作，<br class="_1280_inline">
+            延續二手衣的生命週期，使家中不再需要的UNIQLO二手衣有機會重獲新生成為寵物衣或風格家飾。<br>
+            透過JUST IN XX周裕穎設計師獨家設計，<br class="_1280_inline">
+            與REHOW及高林文創基金會長期輔導培訓之二度就業人士精心製作，<br class="_1280_inline">
+            一同實現環保減碳與社會扶助良善循環。<br>
+            即日起至8月31日止，<br class="_1280_inline">
+            《REHOW × JUST IN XX 舊衣新生工坊》啟動網路訂購服務，<br class="_1280_inline">
+            讓大家宅家也能響應永續共好的行動，<br class="_1280_inline">
+            攜手與您一同使服裝重生讓愛循環！
+          </p>
+          <p>
+            <span>特此感謝</span><br>
+            《高林文創基金會》關注永續時尚與婦女培力，長期與REHOW合作，<br class="_1280_inline">
+            推薦基金會培訓之二度就業婦女組成REHOW工坊的製作團隊，並提供專業縫紉設備。<br>
+            《毛小孩幸福聯盟協會》於設計階段提供大型犬特性與一般犬貓的飼主的日常需求，<br class="_1280_inline">
+            最終設計師整合了相關建議，創造出兼顧功能與風格的寵物衣，<br class="_1280_inline">
+            協會的大浣熊也擔綱Model一角演繹寵物時尚。
+          </p>
+        </div>
+        <div class="aboutus_logo1">
+          <img class="_1280" src="/images/1280/aboutus_logo2.png" alt="高林文創基金會 毛小孩幸福聯盟協會">
+          <img class="_640" src="/images/640/aboutus_logo2.png" alt="高林文創基金會 毛小孩幸福聯盟協會">
+        </div>
       </div>
 
     </div>
