@@ -59,7 +59,7 @@ $(function() {
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g9, .gosize").click(function() {
+  $(document).on('click', ".g9, .gosize", function() {
     $("body, html").stop(true,false).animate({
       scrollTop: $(".sec9").offset().top - naviH
     }, 100,"easeOutQuart");
