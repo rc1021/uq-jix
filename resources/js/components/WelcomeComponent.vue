@@ -114,8 +114,8 @@
           <div class="sub2">適用改造的UNIQLO二手衣品項：<br class="_640_inline">男女裝短袖圓領T恤</div>
           <div class="price">NT$790</div>
           <p>保留Ｔ恤既有的細節特色，讓永續設計師周裕穎的獨家設計為您的居家生活更添設計感，還貼心附上枕心唷！</p>
-          <img class="_1280" src="/images/1280/items_sec2_img1.png" alt="① Lifestyle Pillow 風格抱枕">
-          <img class="_640"  src="/images/640/items_sec2_img1.png" alt="① Lifestyle Pillow 風格抱枕">
+          <img class="_1280" src="/images/1280/items_sec2_img1.png?t=0605" alt="① Lifestyle Pillow 風格抱枕">
+          <img class="_640"  src="/images/640/items_sec2_img1.png?t=0605" alt="① Lifestyle Pillow 風格抱枕">
         </div>
 
         <div class="itemintro">
@@ -124,8 +124,8 @@
           <div class="sub2">適用改造的UNIQLO二手衣品項：<br class="_640_inline">男女裝短袖圓領T恤<br class="_640_inline"><small>＊詳情請見寵物衣訂製注意事項</small></div>
           <div class="price">NT$790</div>
           <p>不再需要的短袖圓領T也可變身最潮的撞色寵物帽Ｔ，只要帶回即將淘汰的圓領T，REHOW工坊的專業團隊將精心改造成為毛小孩的亮麗寵物衣。</p>
-          <img class="_1280" src="/images/1280/items_sec2_img2.png" alt="② Pet Hoodie 寵物帽T">
-          <img class="_640"  src="/images/640/items_sec2_img2.png" alt="② Pet Hoodie 寵物帽T">
+          <img class="_1280" src="/images/1280/items_sec2_img2.png?t=0605" alt="② Pet Hoodie 寵物帽T">
+          <img class="_640"  src="/images/640/items_sec2_img2.png?t=0605" alt="② Pet Hoodie 寵物帽T">
         </div>
 
         <!-- <div class="itemintro">
