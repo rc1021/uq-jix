@@ -20593,7 +20593,7 @@ $(window).on('resize', function () {
   }
 });
 $(function () {
-  $(".navburger").click(function () {
+  $(document).on('click', '.navburger', function () {
     var status = $(".theNavibar").attr("data-status");
 
     if (status == "on") {
@@ -20604,35 +20604,35 @@ $(function () {
 
     return false;
   });
-  $(".g1").click(function () {
+  $(document).on('click', '.g1', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec1").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g3").click(function () {
+  $(document).on('click', '.g3', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec3").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g2").click(function () {
+  $(document).on('click', '.g2', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec2").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g7").click(function () {
+  $(document).on('click', '.g7', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec7").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g8").click(function () {
+  $(document).on('click', '.g8', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec8").offset().top - naviH
     }, 100, "easeOutQuart");
@@ -20646,27 +20646,27 @@ $(function () {
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g10").click(function () {
+  $(document).on('click', '.g10', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec10").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".g6").click(function () {
+  $(document).on('click', '.g6', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec6").offset().top - naviH
     }, 100, "easeOutQuart");
     $(".theNavibar").attr("data-status", "off");
     return false;
   });
-  $(".float_banner").click(function () {
+  $(document).on('click', '.float_banner', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec8").offset().top - naviH
     }, 100, "easeOutQuart");
     return false;
   });
-  $(".gotosec9_1").click(function () {
+  $(document).on('click', '.gotosec9_1', function () {
     $("body, html").stop(true, false).animate({
       scrollTop: $(".sec9").offset().top - naviH
     }, 100, "easeOutQuart");
@@ -20703,10 +20703,10 @@ $(function () {
       $(".prepared_no").css("display", "block");
     } // alert( this.value );
 
-  }).trigger('change'); //   $(".addmore").click(function(){
+  }).trigger('change'); //   $(".addmore").on('click', '', function(){
   //     $(".sinbody>.sin:last-child").after('<div class="sin"><div><label class="_640"><small>品項</small></label><div class="i_name R_name">寵物帽T NT$790</div></div><div><label class="_640"><small>尺寸</small></label><select><option selected value="XS">XS</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option><option value="2XL">2XL</option><option value="3XL">3XL</option><option value="4XL">4XL</option><option value="5XL">5XL</option></select></div><div><label class="_640"><small>數量</small></label><input type="number" min="0" value="0"></div><div><label class="_640"><small>金額</small></label><div class="i_price">NT$<span>790</span></div></div></div>');
   //   });
-  //   $('.havetoChecked').click(function(){
+  //   $('.havetoChecked').on('click', '', function(){
   //     if($(this).prop("checked") == true){
   //       // console.log("Checkbox is checked.");
   //       $('.action button').attr("disabled", false);
