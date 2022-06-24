@@ -244,11 +244,11 @@ echo -e "${NC}"
 if $build || [ -z "$(docker images -q $image_name)" ]; then
     cd "$lard_path" \
         && echo -e "建立並啟動容器..." \
-        && docker-compose up --build -d laravel-echo-server nginx mariadb phpmyadmin redis php-worker mailhog workspace
+        && docker-compose up --build -d nginx mariadb phpmyadmin redis mailhog workspace
 else
     cd "$lard_path" \
         && echo -e "啟動容器..." \
-        && docker-compose up -d laravel-echo-server nginx mariadb phpmyadmin redis php-worker mailhog workspace
+        && docker-compose up -d nginx mariadb phpmyadmin redis mailhog workspace
 fi
 
 # check vendor exists
