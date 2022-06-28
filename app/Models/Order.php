@@ -79,7 +79,7 @@ class Order extends Model
             'WebNo' => config('paynow.WebNo'),
             'ECPlatform' => 'REHOW',
             'ReceiverName' => $this->name,
-            'ReceiverID' => $this->phone,
+            'ReceiverID' => $this->email,
             'ReceiverTel' => $this->phone,
             'ReceiverEmail' => $this->email,
             'OrderNo' => $order_no,
