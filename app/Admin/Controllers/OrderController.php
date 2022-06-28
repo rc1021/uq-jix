@@ -110,7 +110,7 @@ EOF;
                 }
                 return [
                     $payment->created_at,
-                    config('order.paytype.' . $payment->PayType),
+                    config('order.paytype.' . $payment->PayType, ''),
                     $payment->TotalPrice,
                     (!$payment->rep) ? '' : sprintf("%s%s",
                         ($payment->rep->TranStatus == 'S') ? '<span style="color:green;">成功</span>' : '<span style="color:red;">失敗</span>',
@@ -131,7 +131,10 @@ EOF;
             return $this->total + $this->delivery_fee;
         });
         $grid->column('payments', __('付款方式'))->display(function($payments) {
-            return config('order.paytype.' . $this->pay_type) . '(' . count($payments) . '筆' . ')';
+            $type = config('order.paytype.' . $this->pay_type, '');
+            if($type)
+                return $type . '(' . count($payments) . '筆' . ')';
+            return count($payments) . '筆';
         });
         $grid->column('is_paied', __('付款狀態'))->using([
             2 => '已付款',
