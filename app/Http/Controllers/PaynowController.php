@@ -42,7 +42,7 @@ class PaynowController extends Controller
         if($order) {
             return redirect($order->getPaymentUrl());
         }
-        return redirect()->route('uq-jix', ['uq_jix' => $number]);
+        return redirect()->route('uq-jix.show', ['uq_jix' => $number]);
     }
 
 
