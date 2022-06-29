@@ -94,7 +94,8 @@ class Order extends Model
             // 'Note2' => '',                                   // 備註 2
         ];
 
-        // if($params['PayType'] == '03')
+        if($params['PayType'] == '03')
+            $params['DeadLine'] = 1; // DeadLine = 0 , 的狀況下會送0天交易期限給銀行，銀行不接受交易期間小於一天，建議DeadLine帶入1，這部分會再向銀行反應, 系統顯示的DueDate因為不允許小於今天，所以都會是顯示今天的最後時間
         //     $params['AtmRespost'] = 1;                       // 需回傳虛擬擬帳號
 
         if($params['PayType'] == '05')
