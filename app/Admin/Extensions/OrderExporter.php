@@ -51,7 +51,7 @@ class OrderExporter extends ExcelExporter implements WithMapping
     {
         $items = $order->items
             ->groupBy(fn($item) => config('order.products.' . $item->product_id . '.title') . '-' . $item->size)
-            ->map(fn($g) => count($g))->toArray();
+            ->map(fn($g) => array_sum(data_get($g, '*.quantity', [])))->toArray();
         $is_paied = '尚未付款';
         if($order->is_paied == 2)
             $is_paied = '已付款';
