@@ -49,7 +49,6 @@
             </div>
             <div>
               <p>
-              即日起至8/31開放線上訂購，<br class="_1280_inline">
               宅家也可響應低碳共好的UNIQLO二手T恤改造行動喔！<br class="_1280_inline">
               兩大品項風格抱枕與寵物帽T供選購，<br class="_1280_inline">
               均一價NTD790，送禮自用兩相宜。
@@ -624,24 +623,6 @@
         <div class="sectitle"><span>常見問與答</span></div>
 
         <div class="allq">
-          <div class="qa">
-            <div class="Question">
-              <div>
-                <img class="_1280" src="/images/1280/faq_q.png" alt="Question">
-                <img class="_640" src="/images/640/faq_q.png" alt="Question">
-              </div>
-              <div>請問活動時間？</div>
-            </div>
-            <div class="Answer">
-              <div>
-                <img class="_1280" src="/images/1280/faq_a.png" alt="Answer">
-                <img class="_640" src="/images/640/faq_a.png" alt="Answer">
-              </div>
-              <div>
-                期間限定活動，即日起至8月31日止，於活動官網線上訂購。
-              </div>
-            </div>
-          </div>
           <div class="qa">
             <div class="Question">
               <div>
