@@ -494,7 +494,6 @@
             透過JUST IN XX周裕穎設計師獨家設計，<br class="_1280_inline">
             與REHOW及高林文創基金會長期輔導培訓之二度就業人士精心製作，<br class="_1280_inline">
             一同實現環保減碳與社會扶助良善循環。<br>
-            即日起至8月31日止，<br class="_1280_inline">
             《REHOW × JUST IN XX 舊衣新生工坊》啟動網路訂購服務，<br class="_1280_inline">
             讓大家宅家也能響應永續共好的行動，<br class="_1280_inline">
             攜手與您一同使服裝重生讓愛循環！
